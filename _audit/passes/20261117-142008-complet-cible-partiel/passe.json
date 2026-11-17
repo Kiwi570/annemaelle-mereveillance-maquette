@@ -1,0 +1,16 @@
+{
+ "id": "20261117-142008-complet-cible-partiel",
+ "date": "2026-11-17T14:24:14.944Z",
+ "niveau": "complet",
+ "pages": "/,/a-propos,/contact,/ecole",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 12,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

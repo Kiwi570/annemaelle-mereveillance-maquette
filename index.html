@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anne-Maëlle Le Roux : accompagnement émotionnel en Mayenne et à distance</title>
+<meta name="description" content="Un mois pour te libérer de ce qui te prend la tête : accompagnement émotionnel sur mesure à Andouillé (Mayenne) et à distance. Premier rendez-vous offert.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://annemaelle-mereveillance-maquette.vercel.app/">
+<style>:root{--fond:#EEF2F0;--texte:#13293D;--voile-fond:#13293D;--ouverture-fond:#13293D;--menu-fond:#13293D}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/young-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#13293D">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anne-Maëlle &amp; Mèreveillance">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Anne-Maëlle Le Roux : accompagnement émotionnel en Mayenne et à distance">
+<meta property="og:description" content="Un mois pour te libérer de ce qui te prend la tête : accompagnement émotionnel sur mesure à Andouillé (Mayenne) et à distance. Premier rendez-vous offert.">
+<meta property="og:url" content="https://annemaelle-mereveillance-maquette.vercel.app/">
+<meta property="og:image" content="https://annemaelle-mereveillance-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Anne-Maëlle Le Roux, accompagnement émotionnel">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Anne-Maëlle & Mèreveillance","alternateName":"Terre de Je","founder":{"@type":"Person","name":"Anne-Maëlle Le Roux"},"url":"https://annemaelle-mereveillance-maquette.vercel.app/","telephone":"+33688661928","email":"bonjour@annemaellemereveillance.fr","address":{"@type":"PostalAddress","addressLocality":"Andouillé","postalCode":"53240","addressRegion":"Mayenne","addressCountry":"FR"},"areaServed":"Mayenne et à distance","description":"Accompagnement émotionnel individuel d'un mois, sophrologie, immersion animale et interventions en école, à Andouillé (Mayenne) et à distance.","sameAs":["https://www.facebook.com/annemaellemereveillance","https://www.instagram.com/annemaelle.mereveillance/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo.png" alt="" width="56" height="56"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-ondes" viewBox="-50 -50 100 100" aria-hidden="true"><circle r="10" style="--i:1"/><circle r="10" style="--i:2"/><circle r="10" style="--i:3"/><circle r="10" style="--i:4"/><circle r="10" style="--i:5"/></svg>
+  <span class="ouverture-goutte"></span>
+  <img class="ouverture-logo" src="/assets/images/logo.png" alt="" width="72" height="72" data-ouverture-objet>
+  <p class="ouverture-nom">Anne-Maëlle <em>&amp;</em> Mèreveillance</p>
+  <p class="ouverture-ligne">Accompagnement émotionnel</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.png" alt="" width="40" height="40"><span>Anne-Maëlle <em>&amp;</em> Mèreveillance</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/immersion-animale" data-libelle="Immersion animale">Immersion animale</a></li><li><a href="/ecole" data-libelle="À l&#39;école">À l&#39;école</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/contact" data-libelle="Contact &amp; tarifs">Contact &amp; tarifs</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#rendez-vous" data-libelle="Contact &amp; tarifs">Premier rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/immersion-animale" class="menu-lien" data-libelle="Immersion animale">Immersion animale</a></li><li style="--i:2"><a href="/ecole" class="menu-lien" data-libelle="À l&#39;école">À l&#39;école</a></li><li style="--i:3"><a href="/a-propos" class="menu-lien" data-libelle="À propos">À propos</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact &amp; tarifs">Contact &amp; tarifs</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact &amp; tarifs">Premier rendez-vous</a> <a class="bouton bouton--contour" href="tel:+33688661928">Appeler 06 88 66 19 28</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero theme-nuit" id="debut">
+  <figure class="media hero-mer" data-grok data-boucle-css style="--cadrage:60% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/mer-ouverture-mobile-640.webp 640w, /assets/images/grok/mer-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/mer-ouverture-1280.webp" srcset="/assets/images/grok/mer-ouverture-640.webp 640w, /assets/images/grok/mer-ouverture-1280.webp 1280w, /assets/images/grok/mer-ouverture-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <canvas class="hero-canvas" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
+  <div class="hero-grille conteneur">
+    <div class="hero-texte">
+      <p class="surtitre hero-sur masque-ecran-tres-bas" data-anime="gsap">Accompagnement émotionnel · Andouillé (Mayenne) et à distance</p>
+      <h1 class="hero-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Un mois pour</span></span><span class="ligne-masque"><span class="hero-ligne">te libérer de ce qui</span></span><span class="ligne-masque"><span class="hero-ligne">te prend <em>la tête</em></span></span></h1>
+      <p class="hero-intro masque-ecran-bas" data-anime="gsap">… et qui semble insoluble. Un accompagnement sur mesure pour retrouver de la légèreté et de la sérénité au quotidien.</p>
+      <p class="hero-actions" data-anime="gsap">
+        <a href="/contact#rendez-vous" class="bouton" data-libelle="Contact &amp; tarifs" data-action-principale data-survol="magnetique">Réserver le premier rendez-vous</a>
+        <span class="hero-info" data-info-cle>Premier rendez-vous offert · 1 mois · 225 €</span>
+      </p>
+    </div>
+    <div class="hero-portrait" data-iris-centre="disque">
+      <svg class="hero-ondes" data-effet="ondes" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><circle r="18" style="--i:0"/><circle r="33" style="--i:1"/><circle r="48" style="--i:2"/><circle r="63" style="--i:3"/><circle r="78" style="--i:4"/></svg>
+      <figure class="media hero-rond" style="--cadrage:52% 32%">
+  <picture>
+    <img src="/assets/images/anne-maelle-portrait-784.webp" srcset="/assets/images/anne-maelle-portrait-480.webp 480w, /assets/images/anne-maelle-portrait-640.webp 640w, /assets/images/anne-maelle-portrait-784.webp 784w" sizes="(max-width: 760px) 46vw, 30vw" alt="Anne-Maëlle Le Roux, souriante, en forêt" width="784" height="784" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <p class="hero-signature" data-anime="gsap">Anne-Maëlle Le Roux</p>
+    </div>
+  </div>
+</section>
+<section class="mer theme-nuit" id="mer">
+  <figure class="media mer-fond" data-grok data-fx="onde" data-fx-force="1.6" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/mer-agitee-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/mer-agitee-1280.webp" srcset="/assets/images/grok/mer-agitee-640.webp 640w, /assets/images/grok/mer-agitee-1280.webp 1280w, /assets/images/grok/mer-agitee-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur mer-grille">
+    <div class="mer-tete">
+      <p class="surtitre" data-anime="mots">Tu n&#39;arrives pas à sortir de cette situation pesante</p>
+      <h2 data-anime="lignes">Tu navigues en pleine mer d&#39;émotions, c&#39;est épuisant !</h2>
+      <p class="mer-texte" data-anime>Sans carte ni boussole. La parentalité, et l&#39;humanité tout court, sont parfois éprouvantes.</p>
+    </div>
+    <ul class="mer-liste">
+      <li class="vague-mot" data-fx="vitesse" data-fx-force="5" style="--i:1"><span>Tes émotions te débordent.</span></li><li class="vague-mot" data-fx="vitesse" data-fx-force="7" style="--i:2"><span>Tu as déjà consulté, psy ou soins énergétiques, sans effet durable.</span></li><li class="vague-mot" data-fx="vitesse" data-fx-force="3" style="--i:3"><span>Tu as peu de temps pour régler la situation.</span></li><li class="vague-mot" data-fx="vitesse" data-fx-force="5" style="--i:4"><span>Tu rumines, et ça pèse sur ta santé mentale.</span></li><li class="vague-mot" data-fx="vitesse" data-fx-force="7" style="--i:5"><span>Tu te résignes, ou tu espères que ça passera.</span></li>
+    </ul>
+  </div>
+</section>
+<section class="espace" id="espace" data-fx="plein-ecran" data-fx-depart="inset(20% 18% 20% 18% round 48px)" aria-labelledby="espace-titre">
+  <div data-collant class="espace-cadre">
+    <figure class="media espace-media" data-grok style="--cadrage:50% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/ruisseau-paisible-mobile-640.webp 640w, /assets/images/grok/ruisseau-paisible-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/ruisseau-paisible-1280.webp" srcset="/assets/images/grok/ruisseau-paisible-640.webp 640w, /assets/images/grok/ruisseau-paisible-1280.webp 1280w, /assets/images/grok/ruisseau-paisible-1920.webp 1920w" sizes="100vw" alt="C&#39;est dans cet espace paisible en toi que je t&#39;emmène" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <h2 class="visuellement-cache" id="espace-titre">C&#39;est dans cet espace paisible en toi que je t&#39;emmène</h2>
+    <p class="espace-mots" aria-hidden="true" data-audit-ignorer><span data-fx-ecarte="g">Cet espace</span><span data-fx-ecarte="d">paisible en toi</span></p>
+    <p class="espace-apres" data-fx-apres>Tu ne sais pas quelle sera la prochaine vague, mais tu sais que tu seras en mesure de l&#39;accueillir et de la traverser.</p>
+  </div>
+</section>
+<section class="besoin conteneur" id="besoin">
+  <div class="besoin-tete">
+    <h2 data-anime="lignes">Tu n&#39;as pas besoin…</h2>
+    <ol class="galets">
+      <li class="galet" data-effet="galets" style="--i:1"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de nouveaux outils pour te connaître encore davantage</span></li><li class="galet" data-effet="galets" style="--i:2"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de suivre une méthode pour parler correctement à tes proches</span></li><li class="galet" data-effet="galets" style="--i:3"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de faire un énième stage de développement personnel</span></li><li class="galet" data-effet="galets" style="--i:4"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de te forcer à faire un rituel tous les matins ou à chaque pleine lune</span></li>
+    </ol>
+  </div>
+  <div class="besoin-suite">
+    <figure class="media besoin-mains" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/mains-784.webp" srcset="/assets/images/mains-480.webp 480w, /assets/images/mains-640.webp 640w, /assets/images/mains-784.webp 784w" sizes="(max-width: 760px) 70vw, 24vw" alt="Une main d&#39;enfant posée sur une main d&#39;adulte" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h3 class="besoin-titre2" data-anime="lignes">Que dirais-tu d&#39;un quotidien fluide et serein ?</h3>
+      <p data-anime>Un quotidien dans lequel tu te sens léger·e et où tu as confiance en tes ressources.</p>
+      <ul class="coches" data-anime="cascade">
+        <li>Tu gères le quotidien sans qu&#39;il prenne toute la place, et tu prends du temps pour l&#39;essentiel : toi et tes proches.</li><li>Tes relations sont saines et positives ; tu sais prendre du recul quand le besoin s&#39;en fait sentir.</li><li>Tu te sens solide, sécure et souple, prêt·e à accueillir tes proches tels qu&#39;ils sont, en respectant tes besoins.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="mois theme-ecume" id="mois">
+  <div class="conteneur">
+    <div class="mois-tete">
+      <p class="surtitre" data-anime="mots">L&#39;accompagnement</p>
+      <h2 data-anime="lignes">Un mois, à ton rythme et sur mesure</h2>
+      <p class="mois-texte" data-anime>Chaque séance se construit avec toi : immersions pour toi et, si besoin, pour tes proches (enfant, conjoint), écoute multidimensionnelle, sophrologie.</p>
+    </div>
+    <div class="semaines">
+      <ol class="semaines-liste">
+        <li class="semaine" data-effet="semaines" style="--i:1"><span class="semaine-num">Semaine 1</span><span class="semaine-point" aria-hidden="true"></span><span class="semaine-texte">Une séance en 1:1</span></li><li class="semaine" data-effet="semaines" style="--i:2"><span class="semaine-num">Semaine 2</span><span class="semaine-point" aria-hidden="true"></span><span class="semaine-texte">Une séance en 1:1</span></li><li class="semaine" data-effet="semaines" style="--i:3"><span class="semaine-num">Semaine 3</span><span class="semaine-point" aria-hidden="true"></span><span class="semaine-texte">Une séance en 1:1</span></li><li class="semaine" data-effet="semaines" style="--i:4"><span class="semaine-num">Semaine 4</span><span class="semaine-point" aria-hidden="true"></span><span class="semaine-texte">Une séance en 1:1</span></li>
+      </ol>
+      <svg class="semaines-fil" viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 60 6, 110 6, 166 30 S 276 54, 333 30 S 443 6, 500 30 S 610 54, 666 30 S 776 6, 833 30 S 943 54, 1000 30"/></svg>
+      <p class="semaines-legende">Soutien par message, 7 j/7</p>
+    </div>
+    <div class="mois-bas">
+      <ul class="piliers" data-anime="cascade">
+        <li><h3>Au moins 4 séances en 1:1</h3><p>Une par semaine, et jusqu&#39;à plusieurs fois par semaine si tu en as besoin.</p></li>
+        <li><h3>Je réponds 7 j/7</h3><p>Par message, pour démêler un événement à chaud, échanger sur ta perception et prendre du recul.</p></li>
+        <li><h3>Tes proches compris</h3><p>Séances et immersions en plus sans surcoût, pour toi comme pour tes proches.</p></li>
+      </ul>
+      <div class="prix-carte" data-anime>
+        <figure class="media prix-photo" style="--cadrage:45% 30%">
+  <picture>
+    <img src="/assets/images/anne-maelle-tambour-784.webp" srcset="/assets/images/anne-maelle-tambour-480.webp 480w, /assets/images/anne-maelle-tambour-640.webp 640w, /assets/images/anne-maelle-tambour-784.webp 784w" sizes="(max-width: 760px) 40vw, 14vw" alt="Anne-Maëlle tenant son tambour, en forêt" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="prix" data-prix>225 €</p>
+        <p class="prix-unite">le mois, tout compris</p>
+        <a href="/contact#rendez-vous" class="bouton" data-libelle="Contact &amp; tarifs" data-survol="magnetique">Réserver le premier rendez-vous</a>
+        <p class="prix-offert">Premier rendez-vous gratuit et sans engagement</p>
+      </div>
+    </div>
+    <p class="mois-bonus" data-anime>Ensuite, en bonus : des séances ponctuelles d&#39;1 à 2 h (immersion ou écoute), 75 € la séance.</p>
+  </div>
+</section>
+<section class="temoignages theme-nuit" id="temoignages">
+  <svg class="temoignages-ondes" data-effet="ondes" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><circle r="18" style="--i:0"/><circle r="33" style="--i:1"/><circle r="48" style="--i:2"/><circle r="63" style="--i:3"/><circle r="78" style="--i:4"/><circle r="93" style="--i:5"/><circle r="108" style="--i:6"/></svg>
+  <div class="conteneur">
+    <p class="surtitre" data-anime="mots">Elles et ils l&#39;ont vécu</p>
+    <h2 data-anime="lignes">Plus détendus, un peu plus en paix</h2>
+    <ul class="bulles">
+      <li class="bulle" data-effet="bulles" style="--i:0" data-vitesse="0.1"><blockquote><p>« Un grand merci pour ton soutien. Je suis soulagée. J&#39;ai pu vivre cette période plus sereinement grâce à nos séances. »</p></blockquote><p class="bulle-qui">Une personne accompagnée</p></li><li class="bulle" data-effet="bulles" style="--i:1" data-vitesse="-0.06"><blockquote><p>« Nous sommes plus détendues, on se sent mieux, un peu plus en paix. C&#39;était bien d&#39;en parler, de prendre le temps et de creuser davantage le sujet. »</p></blockquote><p class="bulle-qui">Une mère et sa fille</p></li><li class="bulle" data-effet="bulles" style="--i:2" data-vitesse="0.16"><blockquote><p>« Je me sens plus confiant, j&#39;écoute plus mon enfant. J&#39;ai compris qu&#39;il était important de communiquer et de dire les choses. »</p></blockquote><p class="bulle-qui">Un parent</p></li><li class="bulle" data-effet="bulles" style="--i:3" data-vitesse="-0.1"><blockquote><p>« Ma façon de penser a évolué, je me sens plus structurée. Beaucoup de réflexions qui m&#39;ont apporté soutien et assurance. »</p></blockquote><p class="bulle-qui">Une personne accompagnée</p></li><li class="bulle" data-effet="bulles" style="--i:4" data-vitesse="0.06"><blockquote><p>« Nous l&#39;avons vraiment vécu comme si nous t&#39;avions toujours connue. Cela nous a permis de prendre du recul sur notre situation. »</p></blockquote><p class="bulle-qui">Une famille</p></li>
+    </ul>
+    <p class="note-discrete" data-anime>Témoignages publiés sans nom, pour préserver la confidentialité.</p>
+  </div>
+</section>
+<section class="pourtoi conteneur" id="pour-toi">
+  <h2 data-anime="lignes">Mon accompagnement est-il fait pour toi ?</h2>
+  <p class="pourtoi-intro" data-anime>On vient me voir pour…</p>
+  <ul class="pastilles" data-anime="cascade">
+    <li>des relations difficiles</li><li>un bébé ou un enfant</li><li>des difficultés à concevoir</li><li>des douleurs physiques persistantes</li><li>de l&#39;anxiété</li>
+  </ul>
+  <div class="pourtoi-colonnes">
+    <div class="pourtoi-oui" data-anime>
+      <h3>C&#39;est pour toi si…</h3>
+      <ul class="coches"><li>tu ne sais plus vers qui te tourner</li><li>tu as déjà consulté des spécialistes</li><li>tu veux vraiment aller mieux</li><li>tu es prêt·e à regarder ton enfant intérieur</li><li>tu as peur de ce que tu pourrais découvrir</li></ul>
+    </div>
+    <div class="pourtoi-pas" data-anime>
+      <h3>Ce n&#39;est peut-être pas encore le moment si…</h3>
+      <ul class="tirets"><li>tu penses que la cause est seulement extérieure</li><li>tu attends une baguette magique</li><li>tu veux te débrouiller seul·e</li><li>tu n&#39;es pas encore prêt·e au changement</li></ul>
+    </div>
+  </div>
+  <p class="note-medicale" data-anime>Mes accompagnements ne remplacent pas un avis ni un suivi médical : ils viennent à côté.</p>
+</section>
+<section class="moi theme-ecume" id="anne-maelle">
+  <div class="conteneur moi-grille">
+    <div class="moi-photos">
+      <figure class="media moi-arbre" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 35%">
+  <picture>
+    <img src="/assets/images/anne-maelle-arbre-784.webp" srcset="/assets/images/anne-maelle-arbre-480.webp 480w, /assets/images/anne-maelle-arbre-640.webp 640w, /assets/images/anne-maelle-arbre-784.webp 784w" sizes="(max-width: 760px) 60vw, 22vw" alt="Anne-Maëlle assise au pied d&#39;un arbre moussu" width="784" height="1176" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media moi-tambour" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/tambour-784.webp" srcset="/assets/images/tambour-480.webp 480w, /assets/images/tambour-640.webp 640w, /assets/images/tambour-784.webp 784w" sizes="(max-width: 760px) 40vw, 14vw" alt="Tambour sur cadre et sa mailloche, posés sur la mousse" width="784" height="784" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="moi-texte">
+      <p class="surtitre" data-anime="mots">Mieux me connaître</p>
+      <h2 data-anime="lignes">Une écoute « mère-veillante »</h2>
+      <p data-anime>Je me suis d&#39;abord formée à la Santé humaniste et je me suis installée en 2015. À la naissance de mes jumelles, j&#39;ai découvert la communication connectée et la Parole au bébé, puis j&#39;ai développé ma propre façon de faire : l&#39;immersion.</p>
+      <div class="outils" data-anime="cascade">
+        <div><h3>L&#39;immersion</h3><p>Une connexion énergétique et la mise en mots des émotions.</p></div>
+        <div><h3>L&#39;écoute multidimensionnelle</h3><p>Mon écoute clairempathique, pour chercher le sens de ce que tu vis.</p></div>
+      </div>
+      <p class="genies-titre" data-anime>Mes zones de génie</p>
+      <ul class="pastilles pastilles--petites" data-anime="cascade"><li>Tu restes pilote de ton chemin</li><li>Une écoute profonde</li><li>Le sens de la situation</li><li>Le temps pour chaque étape</li><li>Aucun rituel imposé</li><li>Un accueil sans jugement</li></ul>
+      <p data-anime><a href="/a-propos" class="lien-fleche" data-libelle="À propos">Mon parcours</a></p>
+    </div>
+  </div>
+</section>
+<section class="aussi conteneur" id="aussi">
+  <h2 data-anime="lignes">J&#39;accompagne aussi…</h2>
+  <div class="portes" data-anime="cascade">
+    <a class="porte" href="/immersion-animale" data-libelle="Immersion animale" data-survol="incline">
+      <figure class="media porte-media" style="--cadrage:40% 40%">
+  <picture>
+    <img src="/assets/images/anne-maelle-chat-1280.webp" srcset="/assets/images/anne-maelle-chat-640.webp 640w, /assets/images/anne-maelle-chat-960.webp 960w, /assets/images/anne-maelle-chat-1280.webp 1280w" sizes="(max-width: 760px) 90vw, 28vw" alt="" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="porte-titre">Les animaux</span><span class="porte-texte">Une communication animale à ma manière, à distance et à tarif libre.</span><span class="lien-fleche">Découvrir</span>
+    </a>
+    <a class="porte" href="/ecole" data-libelle="À l&#39;école" data-survol="incline">
+      <figure class="media porte-media" data-grok style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/ecole-classe-mobile-640.webp 640w, /assets/images/grok/ecole-classe-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 28vw">
+    <img src="/assets/images/grok/ecole-classe-1280.webp" srcset="/assets/images/grok/ecole-classe-640.webp 640w, /assets/images/grok/ecole-classe-1280.webp 1280w, /assets/images/grok/ecole-classe-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 28vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <span class="porte-titre">Les écoles</span><span class="porte-texte">Séquence : trois séances sur les relations, en CE2 et en CM.</span><span class="lien-fleche">Découvrir</span>
+    </a>
+    <a class="porte" href="/contact#tarifs" data-libelle="Contact &amp; tarifs" data-survol="incline">
+      <figure class="media porte-media" style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/ruisseau-reel-960.webp" srcset="/assets/images/ruisseau-reel-480.webp 480w, /assets/images/ruisseau-reel-640.webp 640w, /assets/images/ruisseau-reel-960.webp 960w" sizes="(max-width: 760px) 90vw, 28vw" alt="" width="960" height="1440" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="porte-titre">La sophrologie</span><span class="porte-texte">Une séance ou un forfait de 4, en présentiel ou en visio.</span><span class="lien-fleche">Découvrir</span>
+    </a>
+  </div>
+</section>
+<section class="faq conteneur" id="questions">
+  <h2 data-anime="lignes">Les questions que tu te poses peut-être</h2>
+  <div class="faq-liste" data-anime="cascade">
+    <details class="faq-item"><summary>Est-ce que tu peux m&#39;aider, avec ma situation à moi ?</summary><p>Nous avons beau être tous différents, nous passons malgré tout par des processus similaires. Le premier rendez-vous, gratuit et sans engagement, sert justement à en parler.</p></details><details class="faq-item"><summary>Pourquoi un accompagnement d&#39;un mois pour commencer ?</summary><p>Ma façon de travailler agit en profondeur. Le mois comprend au moins 4 séances, une par semaine, et mon soutien par message entre les séances.</p></details><details class="faq-item"><summary>Le prix change si on fait une séance de plus ?</summary><p>Non, c&#39;est un forfait qui te donne accès à tout ce que je suis et à tous mes outils, sans variation de prix. Tes proches peuvent aussi en profiter.</p></details><details class="faq-item"><summary>Comment tu fais ?</summary><p>Il est difficile de mettre des mots sur ma clairempathie. Concrètement, j&#39;utilise l&#39;immersion (une connexion énergétique et la mise en mots des émotions) et l&#39;écoute multidimensionnelle, en séance individuelle.</p></details><details class="faq-item"><summary>Est-ce que je peux essayer avant de m&#39;engager pour un mois ?</summary><p>Oui. Si tu veux tester ma façon d&#39;être et de travailler à partir d&#39;un outil plus classique, tu peux réserver une séance de sophrologie (55 € en présentiel, 50 € en visio) ou un forfait de 4 séances.</p></details><details class="faq-item"><summary>Combien ça coûte ?</summary><p>Le mois coûte 225 €. Au minimum, tu as accès à 4 séances, une par semaine, dont des immersions pour toi et, si besoin, pour tes proches, et à mon soutien par message tout le mois.</p></details>
+  </div>
+</section>
+<section class="fin theme-nuit" id="premier-pas">
+  <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
+  <div class="conteneur fin-contenu">
+    <h2 data-anime="lignes">Le premier pas est offert</h2>
+    <p data-anime>Un premier rendez-vous gratuit et sans engagement, pour voir ensemble si mon accompagnement peut répondre à ta situation.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact#rendez-vous" class="bouton" data-libelle="Contact &amp; tarifs" data-survol="magnetique">Réserver le premier rendez-vous</a>
+      <a href="/contact?sujet=autre#rendez-vous" class="bouton bouton--contour" data-libelle="Contact &amp; tarifs">M&#39;écrire un message</a>
+    </p>
+    <p class="fin-tel" data-anime><a href="tel:+33688661928">06 88 66 19 28</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="pied-ondes" aria-hidden="true" data-visuel></div>
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo.png" alt="" width="56" height="56"><strong>Anne-Maëlle &amp; Mèreveillance</strong></p>
+      <p>Accompagnement émotionnel sur mesure, pour les adultes, les parents et leurs proches.</p>
+      <p><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact &amp; tarifs">Premier rendez-vous</a></p>
+    </div>
+    <div>
+      <p class="pied-titre">Me joindre</p>
+      <p><a href="tel:+33688661928">06 88 66 19 28</a><br><a href="mailto:bonjour@annemaellemereveillance.fr">bonjour@annemaellemereveillance.fr</a><br>Andouillé (53240), Mayenne</p>
+      <p><a href="https://annemaellemereveillance.reservio.com/" target="_blank" rel="noopener">Agenda en ligne<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/immersion-animale" data-libelle="Immersion animale">Immersion animale</a></li><li><a href="/ecole" data-libelle="À l&#39;école">À l&#39;école</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/contact" data-libelle="Contact &amp; tarifs">Contact &amp; tarifs</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Me suivre</p>
+      <ul><li><a href="https://www.facebook.com/annemaellemereveillance" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/annemaelle.mereveillance/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.youtube.com/channel/UCy7ONifkKb8_cWLWgjub7Mg" target="_blank" rel="noopener">YouTube<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette de présentation : les formulaires sont simulés, rien n&#39;est envoyé. Photos : Fred Mouraud, Marie Leduc, Anne-Maëlle Le Roux.</p><p>Mentions légales · Politique de confidentialité : à compléter</p><p>© Anne-Maëlle Le Roux · Terre de Je</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33688661928">Appeler</a>
+  <a class="bouton" href="/contact#rendez-vous" data-libelle="Contact &amp; tarifs">Rendez-vous</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "nom": "Anne-Maëlle & Mèreveillance",
+  "adresse": "https://annemaelle-mereveillance-maquette.vercel.app",
+  "siteActuel": "annemaellemereveillance.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "immersion-animale", "ecole", "a-propos", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "rendez-vous" },
+  "couleurs": { "fond": "#EEF2F0", "texte": "#13293D", "voile": "#13293D", "ouverture": "#13293D", "menu": "#13293D", "theme": "#13293D" },
+  "formeVoile": "vague",
+  "contact": {
+    "telephone": "06 88 66 19 28", "telephoneLien": "+33688661928", "email": "bonjour@annemaellemereveillance.fr",
+    "adresse": "Andouillé (53240), Mayenne",
+    "reservio": "https://annemaellemereveillance.reservio.com/",
+    "facebook": "https://www.facebook.com/annemaellemereveillance",
+    "instagram": "https://www.instagram.com/annemaelle.mereveillance/",
+    "youtube": "https://www.youtube.com/channel/UCy7ONifkKb8_cWLWgjub7Mg"
+  },
+  "polices": ["/assets/fonts/young-serif.woff2", "/assets/fonts/hanken-400.woff2"],
+  "imagePartage": "anne-maelle-portrait-784.webp",
+  "curseur": true
+}

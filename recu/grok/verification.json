@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-17T12:55:08.454Z",
+  "plan": "/home/claude/annemaelle-mereveillance-maquette/plan-images.json",
+  "attendus": 11,
+  "recus": 11,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "mer-ouverture.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Wide view of a deep ink-blue sea surface at blue hour, seen from just above the water, gentle slow ripples and long soft swells, a faint silver light reflecting on the water in the right half of the frame, a dark horizon line high in the frame under a barely lit sky, no boat, no land, no rocks, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "mer-ouverture-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Wide view of a deep ink-blue sea surface at blue hour, seen from just above the water, gentle slow ripples and long soft swells, a faint silver light reflecting on the water in the right half of the frame, a dark horizon line high in the frame under a barely lit sky, no boat, no land, no rocks, no people. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "ruisseau-paisible-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A clear forest stream in an old oak and beech woodland of the western French hedgerow countryside, a still pool in the foreground reflecting soft morning light, mossy stones, ferns along the banks, slanting sunbeams through light mist, deeply peaceful, no people. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "ecole-classe.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "An empty sunlit primary school classroom in the French countryside, small wooden chairs arranged in a circle on a light wooden floor, a soft woven rug in the middle, paper cut-out hearts and leaves hanging in the tall windows, green plants on the sill, calm and welcoming, nobody in the room, blank walls, blank boards, no writing anywhere. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "ecole-classe-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "An empty sunlit primary school classroom in the French countryside, small wooden chairs arranged in a circle on a light wooden floor, a soft woven rug in the middle, paper cut-out hearts and leaves hanging in the tall windows, green plants on the sill, calm and welcoming, nobody in the room, blank walls, blank boards, no writing anywhere. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "contact-fauteuils.jpg",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "A welcoming corner for a quiet conversation: two empty armchairs with linen cushions facing each other near a tall window, a pot of tea and two ceramic cups on a small raw wood table between them, a green plant, soft morning light, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "perdu-404.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A small empty wooden rowboat drifting alone on a calm misty lake at blue hour, seen from a distance in the right third of the frame, oars resting inside, still water reflecting the pale sky, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/mer-ouverture",
+      "attendu": "mer-ouverture.jpg",
+      "fichier": "mer-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide view of a deep ink-blue sea surface at blue hour, seen from just above the water, gentle slow ripples and long soft swells, a faint silver light reflecting on the water in the right half of the frame, a dark horizon line high in the frame under a barely lit sky, no boat, no land, no rocks, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/mer-ouverture",
+      "mobile": true,
+      "attendu": "mer-ouverture-mobile.jpg",
+      "fichier": "mer-ouverture-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide view of a deep ink-blue sea surface at blue hour, seen from just above the water, gentle slow ripples and long soft swells, a faint silver light reflecting on the water in the right half of the frame, a dark horizon line high in the frame under a barely lit sky, no boat, no land, no rocks, no people. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/mer-agitee",
+      "attendu": "mer-agitee.jpg",
+      "fichier": "mer-agitee.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/ruisseau-paisible",
+      "attendu": "ruisseau-paisible.jpg",
+      "fichier": "ruisseau-paisible.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/ruisseau-paisible",
+      "mobile": true,
+      "attendu": "ruisseau-paisible-mobile.jpg",
+      "fichier": "ruisseau-paisible-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A clear forest stream in an old oak and beech woodland of the western French hedgerow countryside, a still pool in the foreground reflecting soft morning light, mossy stones, ferns along the banks, slanting sunbeams through light mist, deeply peaceful, no people. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/ecole-classe",
+      "attendu": "ecole-classe.jpg",
+      "fichier": "ecole-classe.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An empty sunlit primary school classroom in the French countryside, small wooden chairs arranged in a circle on a light wooden floor, a soft woven rug in the middle, paper cut-out hearts and leaves hanging in the tall windows, green plants on the sill, calm and welcoming, nobody in the room, blank walls, blank boards, no writing anywhere. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/ecole-classe",
+      "mobile": true,
+      "attendu": "ecole-classe-mobile.jpg",
+      "fichier": "ecole-classe-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1080,
+      "hauteur": 1920,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "An empty sunlit primary school classroom in the French countryside, small wooden chairs arranged in a circle on a light wooden floor, a soft woven rug in the middle, paper cut-out hearts and leaves hanging in the tall windows, green plants on the sill, calm and welcoming, nobody in the room, blank walls, blank boards, no writing anywhere. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Western France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/animal-bocage",
+      "attendu": "animal-bocage.jpg",
+      "fichier": "animal-bocage.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/apropos-chemin",
+      "attendu": "apropos-chemin.jpg",
+      "fichier": "apropos-chemin.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1500,
+      "hauteur": 1000,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/contact-fauteuils",
+      "attendu": "contact-fauteuils.jpg",
+      "fichier": "contact-fauteuils.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 0.8 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1000,
+      "hauteur": 1250,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A welcoming corner for a quiet conversation: two empty armchairs with linen cushions facing each other near a tall window, a pot of tea and two ceramic cups on a small raw wood table between them, a green plant, soft morning light, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/perdu-404",
+      "attendu": "perdu-404.jpg",
+      "fichier": "perdu-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1920,
+      "hauteur": 1080,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A small empty wooden rowboat drifting alone on a calm misty lake at blue hour, seen from a distance in the right third of the frame, oars resting inside, still water reflecting the pale sky, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, serene, tender and hopeful mood, palette of deep ink blue, misty sea-glass grey-green, soft off-white and a single small touch of warm coral red, soft blue-hour or early morning light, tactile water, moss, oak bark, linen and raw wood, set in western France on a late spring morning, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

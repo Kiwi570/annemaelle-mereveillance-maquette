@@ -1,0 +1,425 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Premier rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Le site",
+    "suivre": "Me suivre",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : les formulaires sont simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Accompagnement émotionnel",
+    "legal": "Mentions légales · Politique de confidentialité : à compléter",
+    "credits": "Photos : Fred Mouraud, Marie Leduc, Anne-Maëlle Le Roux",
+    "pasMedical": "Mes accompagnements ne remplacent pas un avis ni un suivi médical : ils viennent à côté.",
+    "nouvelOnglet": "(nouvel onglet)",
+    "reservio": "Agenda en ligne",
+    "lieu": "Andouillé (Mayenne) et à distance",
+    "pied": "Accompagnement émotionnel sur mesure, pour les adultes, les parents et leurs proches.",
+    "actionCourte": "Rendez-vous"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Anne-Maëlle Le Roux : accompagnement émotionnel en Mayenne et à distance",
+      "description": "Un mois pour te libérer de ce qui te prend la tête : accompagnement émotionnel sur mesure à Andouillé (Mayenne) et à distance. Premier rendez-vous offert.",
+      "nav": "Accueil",
+      "partageAlt": "Anne-Maëlle Le Roux, accompagnement émotionnel",
+      "accroche": "Un mois pour te libérer de ce qui te prend la tête"
+    },
+    "immersion-animale": {
+      "titre": "Immersion animale : Anne-Maëlle & Mèreveillance",
+      "description": "Une communication animale à ma manière : les ressentis, les émotions et les besoins de ton animal. À distance, tarif libre.",
+      "nav": "Immersion animale",
+      "partageAlt": "Anne-Maëlle Le Roux avec un chat, immersion animale",
+      "accroche": "Une communication animale à ma manière"
+    },
+    "ecole": {
+      "titre": "Séquence, relations, besoins et conflits à l'école : Anne-Maëlle & Mèreveillance",
+      "description": "Séquence : trois séances participatives pour les classes de CE2 et de CM, pour mieux vivre ses relations et ses émotions.",
+      "nav": "À l'école",
+      "partageAlt": "Salle de classe aux chaises en cercle, programme Séquence",
+      "accroche": "Et si les relations s'apprenaient à l'école ?"
+    },
+    "a-propos": {
+      "titre": "Qui suis-je : Anne-Maëlle Le Roux, Mèreveillance",
+      "description": "Mon parcours, le mot Mèreveillance et ce qui guide mon accompagnement.",
+      "nav": "À propos",
+      "partageAlt": "Anne-Maëlle Le Roux, bras ouverts dans un sous-bois",
+      "accroche": "Être vraie et faire de mon mieux"
+    },
+    "contact": {
+      "titre": "Contact et tarifs : Anne-Maëlle & Mèreveillance",
+      "description": "Tous les tarifs, la prise de rendez-vous et mes coordonnées. Le premier rendez-vous est offert.",
+      "nav": "Contact & tarifs",
+      "partageAlt": "Le premier rendez-vous est offert",
+      "accroche": "Le premier rendez-vous est offert"
+    },
+    "404": {
+      "titre": "Page introuvable : Anne-Maëlle & Mèreveillance",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Cette page a pris le large"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Accompagnement émotionnel · Andouillé (Mayenne) et à distance",
+      "titre1": "Un mois pour",
+      "titre2": "te libérer de ce qui",
+      "titre3a": "te prend",
+      "titre3b": "la tête",
+      "texte": "… et qui semble insoluble. Un accompagnement sur mesure pour retrouver de la légèreté et de la sérénité au quotidien.",
+      "action": "Réserver le premier rendez-vous",
+      "info": "Premier rendez-vous offert · 1 mois · 225 €",
+      "portraitAlt": "Anne-Maëlle Le Roux, souriante, en forêt",
+      "signature": "Anne-Maëlle Le Roux"
+    },
+    "mer": {
+      "surtitre": "Tu n'arrives pas à sortir de cette situation pesante",
+      "titre": "Tu navigues en pleine mer d'émotions, c'est épuisant !",
+      "texte": "Sans carte ni boussole. La parentalité, et l'humanité tout court, sont parfois éprouvantes.",
+      "s1": "Tes émotions te débordent.",
+      "s2": "Tu as déjà consulté, psy ou soins énergétiques, sans effet durable.",
+      "s3": "Tu as peu de temps pour régler la situation.",
+      "s4": "Tu rumines, et ça pèse sur ta santé mentale.",
+      "s5": "Tu te résignes, ou tu espères que ça passera."
+    },
+    "espace": {
+      "mot1": "Cet espace",
+      "mot2": "paisible en toi",
+      "titre": "C'est dans cet espace paisible en toi que je t'emmène",
+      "apres": "Tu ne sais pas quelle sera la prochaine vague, mais tu sais que tu seras en mesure de l'accueillir et de la traverser."
+    },
+    "besoin": {
+      "titre": "Tu n'as pas besoin…",
+      "b1": "de nouveaux outils pour te connaître encore davantage",
+      "b2": "de suivre une méthode pour parler correctement à tes proches",
+      "b3": "de faire un énième stage de développement personnel",
+      "b4": "de te forcer à faire un rituel tous les matins ou à chaque pleine lune",
+      "titre2": "Que dirais-tu d'un quotidien fluide et serein ?",
+      "intro2": "Un quotidien dans lequel tu te sens léger·e et où tu as confiance en tes ressources.",
+      "q1": "Tu gères le quotidien sans qu'il prenne toute la place, et tu prends du temps pour l'essentiel : toi et tes proches.",
+      "q2": "Tes relations sont saines et positives ; tu sais prendre du recul quand le besoin s'en fait sentir.",
+      "q3": "Tu te sens solide, sécure et souple, prêt·e à accueillir tes proches tels qu'ils sont, en respectant tes besoins.",
+      "mainsAlt": "Une main d'enfant posée sur une main d'adulte"
+    },
+    "mois": {
+      "surtitre": "L'accompagnement",
+      "titre": "Un mois, à ton rythme et sur mesure",
+      "texte": "Chaque séance se construit avec toi : immersions pour toi et, si besoin, pour tes proches (enfant, conjoint), écoute multidimensionnelle, sophrologie.",
+      "semaine": "Semaine",
+      "seance": "Une séance en 1:1",
+      "fil": "Soutien par message, 7 j/7",
+      "p1t": "Au moins 4 séances en 1:1",
+      "p1": "Une par semaine, et jusqu'à plusieurs fois par semaine si tu en as besoin.",
+      "p2t": "Je réponds 7 j/7",
+      "p2": "Par message, pour démêler un événement à chaud, échanger sur ta perception et prendre du recul.",
+      "p3t": "Tes proches compris",
+      "p3": "Séances et immersions en plus sans surcoût, pour toi comme pour tes proches.",
+      "prix": "225 €",
+      "prixUnite": "le mois, tout compris",
+      "action": "Réserver le premier rendez-vous",
+      "offert": "Premier rendez-vous gratuit et sans engagement",
+      "bonus": "Ensuite, en bonus : des séances ponctuelles d'1 à 2 h (immersion ou écoute), 75 € la séance.",
+      "photoAlt": "Anne-Maëlle tenant son tambour, en forêt"
+    },
+    "temoignages": {
+      "surtitre": "Elles et ils l'ont vécu",
+      "titre": "Plus détendus, un peu plus en paix",
+      "note": "Témoignages publiés sans nom, pour préserver la confidentialité."
+    },
+    "pourtoi": {
+      "titre": "Mon accompagnement est-il fait pour toi ?",
+      "intro": "On vient me voir pour…",
+      "t1": "des relations difficiles",
+      "t2": "un bébé ou un enfant",
+      "t3": "des difficultés à concevoir",
+      "t4": "des douleurs physiques persistantes",
+      "t5": "de l'anxiété",
+      "ouiTitre": "C'est pour toi si…",
+      "o1": "tu ne sais plus vers qui te tourner",
+      "o2": "tu as déjà consulté des spécialistes",
+      "o3": "tu veux vraiment aller mieux",
+      "o4": "tu es prêt·e à regarder ton enfant intérieur",
+      "o5": "tu as peur de ce que tu pourrais découvrir",
+      "pasTitre": "Ce n'est peut-être pas encore le moment si…",
+      "n1": "tu penses que la cause est seulement extérieure",
+      "n2": "tu attends une baguette magique",
+      "n3": "tu veux te débrouiller seul·e",
+      "n4": "tu n'es pas encore prêt·e au changement"
+    },
+    "moi": {
+      "surtitre": "Mieux me connaître",
+      "titre": "Une écoute « mère-veillante »",
+      "texte": "Je me suis d'abord formée à la Santé humaniste et je me suis installée en 2015. À la naissance de mes jumelles, j'ai découvert la communication connectée et la Parole au bébé, puis j'ai développé ma propre façon de faire : l'immersion.",
+      "o1t": "L'immersion",
+      "o1": "Une connexion énergétique et la mise en mots des émotions.",
+      "o2t": "L'écoute multidimensionnelle",
+      "o2": "Mon écoute clairempathique, pour chercher le sens de ce que tu vis.",
+      "geniesTitre": "Mes zones de génie",
+      "g1": "Tu restes pilote de ton chemin",
+      "g2": "Une écoute profonde",
+      "g3": "Le sens de la situation",
+      "g4": "Le temps pour chaque étape",
+      "g5": "Aucun rituel imposé",
+      "g6": "Un accueil sans jugement",
+      "lien": "Mon parcours",
+      "arbreAlt": "Anne-Maëlle assise au pied d'un arbre moussu",
+      "tambourAlt": "Tambour sur cadre et sa mailloche, posés sur la mousse"
+    },
+    "aussi": {
+      "titre": "J'accompagne aussi…",
+      "a1t": "Les animaux",
+      "a1": "Une communication animale à ma manière, à distance et à tarif libre.",
+      "a2t": "Les écoles",
+      "a2": "Séquence : trois séances sur les relations, en CE2 et en CM.",
+      "a3t": "La sophrologie",
+      "a3": "Une séance ou un forfait de 4, en présentiel ou en visio.",
+      "voir": "Découvrir"
+    },
+    "faq": {
+      "titre": "Les questions que tu te poses peut-être"
+    },
+    "fin": {
+      "titre": "Le premier pas est offert",
+      "texte": "Un premier rendez-vous gratuit et sans engagement, pour voir ensemble si mon accompagnement peut répondre à ta situation.",
+      "action": "Réserver le premier rendez-vous",
+      "message": "M'écrire un message"
+    }
+  },
+  "animal": {
+    "surtitre": "Immersion animale",
+    "titre1": "Une communication",
+    "titre2": "animale",
+    "titre3": "à ma manière",
+    "texte": "Je me connecte aux ressentis et aux émotions de ton animal, je l'aide à exprimer ses besoins et je te transmets ses messages.",
+    "action": "Demander une immersion",
+    "info": "À distance · tarif libre",
+    "photoAlt": "Anne-Maëlle allongée dans l'herbe, la main sur un chat noir et blanc",
+    "especes": {
+      "titre": "Toutes les espèces, même celles que je connais moins",
+      "texte": "Chats, chiens, chevaux, mais aussi un gris du Gabon, des vaches, des fourmis ou des carpes : chacun a quelque chose à dire.",
+      "e1": "Chats",
+      "e2": "Chiens",
+      "e3": "Chevaux",
+      "e4": "Un gris du Gabon",
+      "e5": "Vaches",
+      "e6": "Fourmis",
+      "e7": "Carpes"
+    },
+    "preparer": {
+      "titre": "Ce qu'il me faut",
+      "p1t": "Le formulaire",
+      "p1": "Le nom de ton animal, son sexe, s'il est stérilisé, le motif de la séance et ton moyen de paiement.",
+      "p2t": "Une photo récente",
+      "p2": "Où l'on voit ses yeux et la plus grande partie de son corps, par SMS ou en réponse au mail de confirmation.",
+      "p3t": "Tes questions, et c'est tout",
+      "p3": "Le motif et ce que tu veux lui demander. Pas besoin de raconter toute sa vie.",
+      "chienAlt": "Anne-Maëlle et son chien, au bord d'un champ"
+    },
+    "deroule": {
+      "titre": "Comment ça se passe",
+      "e1": "Je te pose éventuellement quelques questions, ou je confirme simplement la réception.",
+      "e2": "Tu reçois un e-mail avec les modalités de paiement.",
+      "e3": "Un SMS te prévient quand la séance commence, dès que mon agenda le permet.",
+      "e4": "À la fin, un SMS pour fixer notre échange téléphonique.",
+      "e5": "Après l'appel, je t'envoie un compte rendu écrit par e-mail."
+    },
+    "temoignages": {
+      "titre": "Ce qu'en disent leurs humains",
+      "chatAlt": "Anne-Maëlle tout près d'un chat roux"
+    },
+    "tarif": {
+      "titre": "Tarif libre",
+      "texte": "Tu donnes ce qui te semble juste, pour toi et pour ton animal. L'immersion se fait à distance ; en présentiel, c'est sur demande.",
+      "action": "Demander une immersion",
+      "rdv": "Prendre rendez-vous en ligne"
+    }
+  },
+  "ecole": {
+    "surtitre": "Interventions · Relations, besoins & conflits",
+    "titre1": "Et si les relations",
+    "titre2": "s'apprenaient",
+    "titre3": "à l'école ?",
+    "texte": "Séquence est un programme pour les classes de CE2 et de CM : trois séances participatives pour mieux vivre ses relations et ses émotions.",
+    "action": "Proposer Séquence à mon école",
+    "info": "3 séances d'1 h · 1 420 € + déplacement",
+    "classeAlt": "Salle de classe vide et lumineuse, petites chaises en cercle",
+    "seances": {
+      "titre": "Trois séances d'une heure",
+      "s1t": "Les besoins",
+      "s1": "Quand chacun connaît ses propres besoins, il peut mieux en prendre la responsabilité.",
+      "s2t": "Les conflits",
+      "s2": "Les élèves regardent des situations vécues pour comprendre leurs réactions et les interprétations qui blessent.",
+      "s3t": "Les pistes de résolution",
+      "s3": "Des ressources pour mieux gérer ses conflits et ses relations, sur le long terme."
+    },
+    "suivi": {
+      "titre": "Avant, pendant, après",
+      "a1t": "Avant",
+      "a1": "Une rencontre avec l'équipe enseignante.",
+      "a2t": "Pendant",
+      "a2": "Des échanges après les séances pour recueillir les ressentis.",
+      "a3t": "Après",
+      "a3": "Des outils pour suivre l'évolution des relations, et une analyse de pratique mensuelle."
+    },
+    "parents": {
+      "titre": "Une rencontre avec les parents",
+      "texte": "Un temps de présentation et d'échange, organisé par l'école ou l'association de parents d'élèves : le contenu des séances, la vision du programme et les questions des familles.",
+      "note": "La rencontre-conférence et l'accompagnement à l'année sont des prestations à part, sur devis."
+    },
+    "themes": {
+      "titre": "Ce qu'on aborde",
+      "t1": "Les relations aux autres et à soi",
+      "t2": "Les besoins",
+      "t3": "Les conflits et leur résolution",
+      "t4": "La confiance et l'estime de soi",
+      "t5": "Le respect",
+      "t6": "L'autonomie",
+      "t7": "La gestion des émotions",
+      "t8": "Le développement de l'enfant et le fonctionnement du cerveau"
+    },
+    "equipe": {
+      "titre": "Qui intervient",
+      "estelle": "Estelle Le Roux",
+      "estelleRole": "Docteure en sciences de l'éducation, psychomotricienne, ancienne enseignante et directrice d'école : 40 ans d'expérience auprès des enfants, des parents et des professionnels.",
+      "estelleAlt": "Estelle Le Roux au bord de la mer",
+      "am": "Anne-Maëlle Le Roux",
+      "amRole": "À l'origine de la démarche, elle met son écoute au service de la relation.",
+      "amAlt": "Anne-Maëlle assise au pied d'un arbre moussu"
+    },
+    "candidature": {
+      "titre": "Proposer Séquence à votre école",
+      "texte": "Laissez vos coordonnées : nous vous recontactons pour en parler avec l'équipe.",
+      "prix": "1 420 €",
+      "prixTexte": "les 3 séances, matériel inclus, plus les frais de déplacement selon la distance.",
+      "nom": "Nom et prénom",
+      "etablissement": "Établissement",
+      "poste": "Poste occupé",
+      "commune": "Commune",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "motivation": "Votre motivation",
+      "envoyer": "Envoyer la candidature",
+      "brochure": "La brochure du programme est envoyée sur demande."
+    }
+  },
+  "apropos": {
+    "surtitre": "Qui suis-je",
+    "prenom": "Anne-Maëlle",
+    "nom": "Le Roux",
+    "citation": "Être vraie et faire de mon mieux, c'est aussi accepter mon humanité.",
+    "texte": "Femme authentique et intuitive, maman calme et à l'écoute de jumelles, amie optimiste. J'accompagne depuis 2015.",
+    "action": "Me rencontrer",
+    "info": "Premier rendez-vous offert",
+    "photoAlt": "Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois",
+    "mot": {
+      "titre": "Mèreveillance",
+      "texte": "Ce mot vient de ma fille. Il dit l'amour inconditionnel et bienveillant de la Terre Mère. C'est la posture que je veux tenir auprès de toi : mère-veillante.",
+      "tambourAlt": "Tambour sur cadre et sa mailloche, posés sur la mousse"
+    },
+    "page": {
+      "surtitre": "2009",
+      "titre": "Une page blanche",
+      "texte": "Je pars seule dans une région de France où je ne connais personne. Trois livres m'accompagnent : Être l'auteur de sa vie, Les Quatre Accords toltèques et La Prophétie des Andes. Je prends conscience de ma façon de vivre, de ressentir et de vouloir, et ça ne se défait plus."
+    },
+    "parcours": {
+      "titre": "Mon parcours",
+      "texte": "Un chemin qui passe par les animaux, la musique et l'image avant d'arriver à l'écoute."
+    },
+    "valeurs": {
+      "titre": "Ce qui me guide",
+      "v1": "L'authenticité",
+      "v2": "Le jeu",
+      "v3": "Prendre soin",
+      "v4": "La Mèreveillance",
+      "v5": "Le respect dans la communication",
+      "v6": "La connexion à soi, à son intuition, aux autres",
+      "v7": "La présence",
+      "v8": "Le mystère",
+      "v9": "Le pouvoir des mots",
+      "c1": "Les émotions sont le flux même de la Vie en nous et autour de nous.",
+      "c2": "On peut tout dire et tout entendre quand chacun prend la responsabilité de ce qu'il vit."
+    },
+    "foret": {
+      "titre": "Là où je me ressource",
+      "texte": "Les sous-bois et les ruisseaux de Mayenne, le tambour, le silence.",
+      "ruisseauAlt": "Ruisseau dans un sous-bois de fougères",
+      "piedsAlt": "Anne-Maëlle pieds nus sur les pierres d'un ruisseau",
+      "arbreAlt": "Anne-Maëlle assise au pied d'un arbre moussu"
+    },
+    "fin": {
+      "titre": "Et si on se rencontrait ?",
+      "texte": "Le premier rendez-vous est gratuit et sans engagement.",
+      "action": "Réserver le premier rendez-vous"
+    }
+  },
+  "contact": {
+    "surtitre": "Contact & tarifs",
+    "titre1": "Le premier",
+    "titre2": "rendez-vous",
+    "titre3": "est offert",
+    "texte": "Gratuit et sans engagement, pour faire connaissance et voir si je peux t'aider. En présentiel à Andouillé (Mayenne) ou à distance.",
+    "action": "Réserver en ligne",
+    "fauteuilsAlt": "Deux fauteuils face à face près d'une fenêtre, une théière sur une petite table",
+    "tarifs": {
+      "titre": "Tous les tarifs",
+      "presentiel": "En présentiel",
+      "visio": "En visio",
+      "seance": "La séance",
+      "forfait": "Forfait de 4 séances",
+      "voir": "En savoir plus",
+      "note": "Les séances peuvent avoir lieu en présentiel : déplacement inclus à moins de 15 km d'Andouillé, frais de déplacement au-delà."
+    },
+    "form": {
+      "titre": "Demander un rendez-vous",
+      "texte": "Je te réponds dès que je suis disponible. Tu préfères choisir ton créneau toi-même ? L'agenda en ligne est là pour ça.",
+      "sujet": "C'est pour…",
+      "sujetPremier": "Le premier rendez-vous (offert)",
+      "sujetSophro": "Une séance de sophrologie",
+      "sujetAnimal": "Une immersion animale",
+      "sujetEcole": "Séquence, à l'école",
+      "sujetAutre": "Autre chose",
+      "mode": "Comment ?",
+      "modePresentiel": "En présentiel",
+      "modeDistance": "À distance",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "message": "Ton message",
+      "envoyer": "Envoyer la demande",
+      "donnees": "Tes données servent seulement à te répondre. Politique de confidentialité : à compléter.",
+      "agenda": "Ouvrir l'agenda en ligne",
+      "signature": "Anne-Maëlle te répond elle-même, dès qu’elle est disponible."
+    },
+    "zone": {
+      "titre": "Où je me déplace",
+      "texte": "Déplacement inclus à moins de 15 km d'Andouillé. Au-delà, des frais de déplacement s'ajoutent. Et partout ailleurs, à distance.",
+      "centre": "Andouillé",
+      "rayon": "15 km",
+      "distance": "Partout, à distance"
+    },
+    "coord": {
+      "titre": "Me joindre",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "lieu": "Lieu",
+      "reseaux": "Réseaux"
+    },
+    "bulle": "Gratuit · sans engagement"
+  },
+  "introuvable": {
+    "titre": "Cette page a pris le large",
+    "texte": "Elle n'existe pas, ou plus. Rentrons au port :",
+    "retour": "Revenir à l'accueil",
+    "alt": "Petite barque vide qui dérive sur un lac brumeux"
+  }
+}

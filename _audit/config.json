@@ -1,0 +1,21 @@
+{
+ "siteActuel": "www.annemaellemereveillance.fr",
+ "pagesTypes": [
+  "/",
+  "/immersion-animale",
+  "/ecole",
+  "/a-propos",
+  "/contact"
+ ],
+ "effets": [
+  "ondes",
+  "galets",
+  "semaines",
+  "bulles",
+  "etapes",
+  "bandeau"
+ ],
+ "grille": {
+  "dispenses": {}
+ }
+}

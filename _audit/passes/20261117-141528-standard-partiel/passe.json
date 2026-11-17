@@ -1,0 +1,17 @@
+{
+ "id": "20261117-141528-standard-partiel",
+ "date": "2026-11-17T14:20:07.792Z",
+ "niveau": "standard",
+ "pages": "toutes",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 16,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

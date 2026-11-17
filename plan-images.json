@@ -1,0 +1,220 @@
+[
+ {
+  "source": "recu/logo-clair.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Terre de Je : une main d'enfant contre une main d'adulte, dans un cœur"
+ },
+ {
+  "source": "recu/grok/mer-ouverture.png",
+  "source_mobile": "recu/grok/mer-ouverture-mobile.jpg",
+  "nom": "grok/mer-ouverture",
+  "role": "ouverture",
+  "page": "Accueil",
+  "emplacement": "ouverture : la mer au crépuscule, derrière le titre",
+  "priorite": "Indispensable",
+  "zone_texte": "gauche",
+  "mobile": true,
+  "beaute": 4,
+  "alt": "",
+  "consigne_scene": "Wide view of a deep ink-blue sea surface at blue hour, seen from just above the water, gentle slow ripples and long soft swells, a faint silver light reflecting on the water in the right half of the frame, a dark horizon line high in the frame under a barely lit sky, no boat, no land, no rocks, no people"
+ },
+ {
+  "source": "recu/grok/mer-agitee.jpg",
+  "nom": "grok/mer-agitee",
+  "role": "section-fond",
+  "page": "Accueil",
+  "emplacement": "« Tu navigues en pleine mer d'émotions » (fond de la section)",
+  "priorite": "Indispensable",
+  "zone_texte": "gauche",
+  "mobile": true,
+  "beaute": 4,
+  "alt": "",
+  "consigne_scene": "Restless dark sea seen at water level under a heavy grey sky, waves crossing each other, a little spray and foam, deep ink blue and slate grey tones, intense but not frightening, no boat, no land, no people"
+ },
+ {
+  "source": "recu/grok/ruisseau-paisible.jpg",
+  "source_mobile": "recu/grok/ruisseau-paisible-mobile.jpg",
+  "nom": "grok/ruisseau-paisible",
+  "role": "section-fond",
+  "gabarit": "lieu",
+  "page": "Accueil",
+  "emplacement": "« Cet espace paisible en toi » : image qui s'ouvre en plein écran",
+  "priorite": "Indispensable",
+  "zone_texte": "centre",
+  "mobile": true,
+  "beaute": 5,
+  "alt": "Ruisseau clair dans un sous-bois de chênes, lumière du matin",
+  "consigne_scene": "A clear forest stream in an old oak and beech woodland of the western French hedgerow countryside, a still pool in the foreground reflecting soft morning light, mossy stones, ferns along the banks, slanting sunbeams through light mist, deeply peaceful, no people"
+ },
+ {
+  "source": "recu/grok/ecole-classe.jpg",
+  "source_mobile": "recu/grok/ecole-classe-mobile.jpg",
+  "nom": "grok/ecole-classe",
+  "role": "ouverture",
+  "page": "À l'école",
+  "emplacement": "ouverture : bandeau sous le grand titre",
+  "priorite": "Indispensable",
+  "mobile": true,
+  "beaute": 4,
+  "alt": "Salle de classe vide et lumineuse, petites chaises en cercle",
+  "consigne_scene": "An empty sunlit primary school classroom in the French countryside, small wooden chairs arranged in a circle on a light wooden floor, a soft woven rug in the middle, paper cut-out hearts and leaves hanging in the tall windows, green plants on the sill, calm and welcoming, nobody in the room, blank walls, blank boards, no writing anywhere"
+ },
+ {
+  "source": "recu/grok/animal-bocage.jpg",
+  "nom": "grok/animal-bocage",
+  "role": "section-fond",
+  "gabarit": "lieu",
+  "page": "Immersion animale",
+  "emplacement": "« Toute espèce » (fond de section)",
+  "priorite": "Conseillée",
+  "zone_texte": "gauche",
+  "mobile": true,
+  "beaute": 5,
+  "alt": "Cheval qui paît dans un pré du bocage, au petit matin",
+  "consigne_scene": "A single chestnut horse grazing in a misty green meadow bordered by old hedgerows at dawn, seen from a distance in the right third of the frame, dew on the grass, an old wooden field gate, soft golden light, peaceful, no people"
+ },
+ {
+  "source": "recu/grok/apropos-chemin.jpg",
+  "nom": "grok/apropos-chemin",
+  "role": "section-fond",
+  "gabarit": "lieu",
+  "page": "À propos",
+  "emplacement": "« 2009, une page blanche » (fond de section)",
+  "priorite": "Conseillée",
+  "zone_texte": "gauche",
+  "mobile": true,
+  "beaute": 4,
+  "alt": "",
+  "consigne_scene": "A quiet narrow country lane between tall hedgerows and old oaks in the western French countryside at early morning, soft mist, the lane curving gently away into the light, nobody, calm and open"
+ },
+ {
+  "source": "recu/grok/contact-fauteuils.jpg",
+  "nom": "grok/contact-fauteuils",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "page": "Contact & tarifs",
+  "emplacement": "« Le premier rendez-vous » (à côté du formulaire)",
+  "priorite": "Conseillée",
+  "beaute": 4,
+  "alt": "Deux fauteuils face à face près d'une fenêtre, une théière sur une petite table",
+  "consigne_scene": "A welcoming corner for a quiet conversation: two empty armchairs with linen cushions facing each other near a tall window, a pot of tea and two ceramic cups on a small raw wood table between them, a green plant, soft morning light, nobody"
+ },
+ {
+  "source": "recu/grok/perdu-404.jpg",
+  "nom": "grok/perdu-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "page introuvable : image du haut",
+  "priorite": "Conseillée",
+  "zone_texte": "gauche",
+  "beaute": 5,
+  "alt": "Petite barque vide qui dérive sur un lac brumeux",
+  "consigne_scene": "A small empty wooden rowboat drifting alone on a calm misty lake at blue hour, seen from a distance in the right third of the frame, oars resting inside, still water reflecting the pale sky, nobody"
+ },
+ {
+  "source": "recu/contacte-moi-2.jpg",
+  "nom": "anne-maelle-portrait",
+  "role": "portrait",
+  "ratio": "1:1",
+  "cadrage": [
+   52,
+   30
+  ],
+  "beaute": 4,
+  "alt": "Anne-Maëlle Le Roux, souriante, en forêt"
+ },
+ {
+  "source": "recu/parcours-bref.webp",
+  "nom": "anne-maelle-bras-ouverts",
+  "role": "portrait",
+  "ratio": "2:3",
+  "beaute": 4,
+  "alt": "Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois"
+ },
+ {
+  "source": "recu/propos-moi-2.webp",
+  "nom": "tambour",
+  "role": "carte-service",
+  "ratio": "1:1",
+  "beaute": 4,
+  "alt": "Tambour sur cadre et sa mailloche, posés sur la mousse"
+ },
+ {
+  "source": "recu/propos-moi-3.webp",
+  "nom": "anne-maelle-tambour",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 4,
+  "alt": "Anne-Maëlle tenant son tambour, en forêt"
+ },
+ {
+  "source": "recu/propos-moi-4.webp",
+  "nom": "anne-maelle-ruisseau",
+  "role": "galerie",
+  "ratio": "2:3",
+  "beaute": 3,
+  "alt": "Anne-Maëlle pieds nus sur les pierres d'un ruisseau"
+ },
+ {
+  "source": "recu/anne-maelle-arbre.jpg",
+  "nom": "anne-maelle-arbre",
+  "role": "portrait",
+  "ratio": "2:3",
+  "beaute": 4,
+  "alt": "Anne-Maëlle assise au pied d'un arbre moussu"
+ },
+ {
+  "source": "recu/image.jpg",
+  "nom": "ruisseau-reel",
+  "role": "galerie",
+  "ratio": "2:3",
+  "beaute": 4,
+  "alt": "Ruisseau dans un sous-bois de fougères"
+ },
+ {
+  "source": "recu/emotions.webp",
+  "nom": "anne-maelle-chat",
+  "role": "carte-service",
+  "ratio": "4:3",
+  "beaute": 4,
+  "alt": "Anne-Maëlle allongée dans l'herbe, la main sur un chat noir et blanc",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ]
+ },
+ {
+  "source": "recu/presence.webp",
+  "nom": "anne-maelle-chien",
+  "role": "galerie",
+  "ratio": "4:3",
+  "beaute": 3,
+  "alt": "Anne-Maëlle et son chien, au bord d'un champ"
+ },
+ {
+  "source": "recu/anne-maelle-regarde-chat.png",
+  "nom": "chat-roux",
+  "role": "galerie",
+  "ratio": "3:2",
+  "beaute": 3,
+  "alt": "Anne-Maëlle tout près d'un chat roux"
+ },
+ {
+  "source": "recu/portrait-estelle-roux.jpg",
+  "nom": "estelle-le-roux",
+  "role": "portrait",
+  "ratio": "4:5",
+  "beaute": 3,
+  "alt": "Estelle Le Roux au bord de la mer"
+ },
+ {
+  "source": "recu/specificites-accompagnement.jpg",
+  "nom": "mains",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 4,
+  "alt": "Une main d'enfant posée sur une main d'adulte"
+ }
+]

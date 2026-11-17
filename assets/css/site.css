@@ -1,0 +1,525 @@
+/* Anne-Maëlle & Mèreveillance · direction « De la mer d'émotions à l'espace paisible ».
+   Palette tenue partout : brume (fond), écume (second fond clair), encre de mer (ouverture, témoignages,
+   appels finaux), cœur (accent, le rouge du logo). Young Serif pour les titres, Hanken Grotesk pour le texte. */
+@font-face { font-family: 'Young Serif'; src: url('/assets/fonts/young-serif.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Hanken Grotesk'; src: url('/assets/fonts/hanken-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Hanken Grotesk'; src: url('/assets/fonts/hanken-600.woff2') format('woff2'); font-weight: 600 700; font-display: swap; }
+@font-face { font-family: 'YS secours'; src: local('Georgia'); size-adjust: 106%; ascent-override: 90%; descent-override: 24%; }
+@font-face { font-family: 'HG secours'; src: local('Arial'); size-adjust: 97%; }
+
+:root {
+  --brume: #EEF2F0; --ecume: #DCE8E5; --nuit: #13293D; --nuit-2: #0E2132;
+  --coeur: #C8452F; --coeur-fonce: #A9361F; --coeur-clair: #F2957C; --mousse: #4F6B45;
+  --accent: var(--coeur);
+  --police-titres: 'Young Serif', 'YS secours', Georgia, serif;
+  --police-texte: 'Hanken Grotesk', 'HG secours', Arial, sans-serif;
+  --largeur: 1240px; --rayon: 18px;
+  --section: clamp(60px, 8vw, 112px);
+}
+body { color: var(--texte); background: var(--fond); }
+h1, h2, h3 { font-weight: 400; letter-spacing: -.01em; }
+h2 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.6rem); line-height: 1.06; }
+h3 { font-size: clamp(1.2rem, 1.1rem + .4vw, 1.45rem); line-height: 1.2; }
+h1 em, h2 em, h3 em, .titre-geant em, .titre-page em { font-style: normal; color: var(--coeur-fonce); }
+.surtitre { font-weight: 600; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--mousse); margin-bottom: 1rem; }
+.note-discrete { font-size: .95rem; color: var(--texte-doux); }
+.note-medicale { margin-top: 32px; padding: 14px 18px; border-left: 3px solid var(--coeur); background: color-mix(in srgb, var(--ecume) 70%, var(--fond)); border-radius: 0 12px 12px 0; font-size: 1rem; max-width: 52em; }
+.bouton { background: var(--coeur); color: #fff; box-shadow: 0 10px 24px -14px color-mix(in srgb, var(--coeur) 80%, transparent); transition: background-color .25s, box-shadow .25s; }
+.bouton:hover { background: var(--coeur-fonce); }
+.bouton--contour { background: transparent; color: inherit; box-shadow: inset 0 0 0 2px currentColor; }
+.bouton--contour:hover { background: color-mix(in srgb, currentColor 10%, transparent); }
+.lien-fleche { display: inline-flex; align-items: center; gap: .5em; min-height: 44px; font-weight: 600; color: var(--coeur-fonce); text-decoration: none; }
+.lien-fleche::after { content: "→"; transition: transform .3s var(--courbe); }
+.lien-fleche:hover::after, a:hover > .lien-fleche::after { transform: translateX(5px); }
+.media { border-radius: var(--rayon); background: var(--ecume); }
+
+/* Thèmes de section : nuit (encre de mer) et écume. */
+.theme-nuit { --fond: var(--nuit); --texte: var(--brume); --ligne: rgba(238, 242, 240, .2); --texte-doux: #B9CAD2; background-color: var(--nuit); color: var(--brume); }
+.theme-nuit :is(h1, h2, h3) em { color: var(--coeur-clair); }
+.theme-nuit .surtitre { color: #A9D3C9; }
+.theme-nuit .lien-fleche { color: var(--coeur-clair); }
+.theme-nuit .media { background: var(--nuit-2); }
+.theme-ecume { background-color: var(--ecume); --fond: var(--ecume); }
+
+/* En-tête, menu, voile, intro. */
+[data-entete] { background: var(--brume); border-bottom-color: rgba(19, 41, 61, .12); }
+.entete-logo img { width: 40px; height: 40px; border-radius: 50%; }
+.entete-logo span { font-family: var(--police-titres); font-weight: 400; font-size: 1.12rem; letter-spacing: -.01em; }
+.entete-logo em { font-style: normal; color: var(--coeur-fonce); }
+[data-nav] a { font-weight: 600; font-size: .98rem; }
+[data-nav] a[aria-current] { text-decoration-color: var(--coeur); }
+[data-menu-bouton], html:not(.js) .menu-sansjs { background: var(--nuit); color: var(--brume); }
+@media (max-width: 420px) { .entete-logo span { font-size: 1rem; } }
+@media (max-width: 359px) { .entete-logo span { display: none; } }
+[data-menu] { color: var(--brume); --fond: var(--nuit); --texte: var(--brume); }
+[data-menu] .menu-lien[aria-current] { color: var(--coeur-clair); }
+html.menu-ouvert [data-entete] { background: var(--nuit); color: var(--brume); border-bottom-color: rgba(238, 242, 240, .14); }
+html.menu-ouvert [data-menu-bouton] { background: var(--brume); color: var(--nuit); }
+.menu-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+[data-voile] { color: var(--brume); }
+.voile-contenu img { border-radius: 50%; }
+
+.ouverture-panneau { gap: 14px; color: var(--brume); overflow: hidden; }
+.ouverture-logo { position: relative; z-index: 2; width: 72px; height: 72px; border-radius: 50%; }
+.ouverture-nom { position: relative; z-index: 2; margin: 0; font-family: var(--police-titres); font-size: clamp(1.7rem, min(5vw, 8vh), 3.2rem); line-height: 1.05; }
+.ouverture-nom em { font-style: normal; color: var(--coeur-clair); }
+.ouverture-ligne { position: relative; z-index: 2; margin: 0; font-size: .82rem; letter-spacing: .22em; text-transform: uppercase; color: #A9D3C9; }
+.ouverture-ondes { position: absolute; left: 50%; top: 50%; width: 140vmax; height: 140vmax; transform: translate(-50%, -50%); fill: none; stroke: rgba(169, 211, 201, .5); stroke-width: .35; overflow: visible; }
+.ouverture-ondes circle { transform: scale(0); transform-origin: 0 0; opacity: 0; }
+.ouverture-goutte { position: absolute; left: 50%; top: 50%; width: 10px; height: 14px; margin: -7px 0 0 -5px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: #A9D3C9; opacity: 0; z-index: 3; }
+
+/* Ondes en SVG (portrait, appels) : cercles fins qui respirent en boucle. */
+.hero-ondes, .temoignages-ondes, .ouv-animal-ondes { position: absolute; fill: none; stroke: currentColor; stroke-width: .6; overflow: visible; pointer-events: none; }
+.hero-ondes circle, .temoignages-ondes circle, .ouv-animal-ondes circle, .zone-ondes circle { transform-box: fill-box; transform-origin: center; animation: respire 6s var(--courbe) infinite; animation-delay: calc(var(--i) * -1.1s); }
+@keyframes respire { 0%, 100% { transform: scale(.96); opacity: .25; } 50% { transform: scale(1.04); opacity: .7; } }
+
+/* 1. Ouverture de l'accueil : la mer, le titre, le portrait rond. */
+.hero { position: relative; min-height: 100svh; display: flex; align-items: center; overflow: hidden; padding: calc(var(--entete-h) + 24px) 0 calc(var(--barres-h) + 32px); isolation: isolate; }
+.hero-mer { position: absolute; inset: 0; z-index: -1; border-radius: 0; }
+.hero-mer::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14, 33, 50, .82) 0%, rgba(14, 33, 50, .45) 55%, rgba(14, 33, 50, .15) 100%); pointer-events: none; z-index: 1; }
+.hero-mer .mention-ia { z-index: 3; }
+.hero-mer img { animation: houle 7s ease-in-out infinite alternate; transform-origin: 60% 60%; }
+@keyframes houle { from { transform: scale(1.05) translate3d(0, 0, 0); } to { transform: scale(1.12) translate3d(-2.6%, -2.2%, 0); } }
+.hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+.hero-grille { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .9fr); align-items: center; gap: clamp(24px, 5vw, 80px); }
+.hero-titre { font-size: clamp(2.5rem, min(6vw, 9.4vh), 6rem); line-height: 1.02; margin-bottom: .45em; }
+.ligne-masque { display: block; clip-path: inset(-.35em -.5em -.22em -.5em); }
+.hero-ligne, .titre-ligne { display: block; }
+html.js:not(.secours):not([data-arrivee="retour"]) :is(.hero-ligne, .titre-ligne) { transform: translate3d(0, 135%, 0); }
+.hero-intro { max-width: 32em; font-size: clamp(1.05rem, 1rem + .3vw, 1.25rem); color: #CFDDE2; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; margin: 0; }
+.hero-info { font-weight: 600; font-size: .98rem; }
+.theme-nuit .hero-info { color: #DDE8EA; }
+.hero-portrait { position: relative; justify-self: center; width: min(100%, clamp(220px, min(30vw, 46vh), 440px)); aspect-ratio: 1; color: #A9D3C9; }
+.hero-portrait .hero-ondes { inset: -30%; width: 160%; height: 160%; }
+.hero-rond { width: 100%; height: 100%; border-radius: 50%; box-shadow: 0 0 0 8px rgba(238, 242, 240, .92), 0 0 0 22px rgba(238, 242, 240, .14), 0 30px 60px -20px rgba(0, 0, 0, .5); }
+.hero-signature { position: absolute; left: 50%; bottom: -12%; transform: translateX(-50%); margin: 0; white-space: nowrap; font-family: var(--police-titres); font-size: 1.05rem; color: var(--brume); }
+@media (max-width: 760px) {
+  .hero { align-items: flex-start; min-height: 0; padding-top: calc(var(--entete-h) + 20px); padding-bottom: 48px; }
+  .hero-grille { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .hero-portrait { order: -1; width: min(44vw, 22svh); justify-self: start; margin: 8px 0 18px 10px; }
+  .hero-signature { left: calc(100% + 18px); bottom: 42%; transform: none; font-size: .95rem; }
+  .hero-titre { font-size: clamp(2.1rem, 10.4vw, 3rem); }
+  .hero-mer::after { background: linear-gradient(180deg, rgba(14, 33, 50, .55), rgba(14, 33, 50, .8)); }
+}
+@media (max-height: 820px) and (min-width: 761px) { .hero-titre { font-size: clamp(2.3rem, min(5.4vw, 8.6vh), 5rem); } }
+@media (max-height: 500px) and (min-width: 561px) {
+  .hero { padding-top: calc(var(--entete-h) + 10px); padding-bottom: 12px; min-height: 100svh; }
+  .hero-grille { grid-template-columns: minmax(0, 1.5fr) minmax(0, .6fr); }
+  .hero-titre { font-size: clamp(1.7rem, 7.6vh, 2.4rem); }
+  .hero-portrait { width: min(26vw, 52svh); order: 0; }
+  .hero-signature { display: none; }
+}
+
+/* 2. La mer d'émotions. */
+.mer { position: relative; overflow: hidden; padding: var(--section) 0; isolation: isolate; }
+.mer-fond { position: absolute; inset: 0; z-index: -1; border-radius: 0; }
+.mer-fond::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(19, 41, 61, .92), rgba(19, 41, 61, .55) 45%, rgba(19, 41, 61, .9)); z-index: 1; }
+.mer-fond .mention-ia { z-index: 3; }
+.mer-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
+.mer-texte { color: #CFDDE2; font-size: 1.1rem; max-width: 30em; }
+.mer-liste { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.vague-mot { display: block; padding: 16px 22px; border-radius: 999px; background: rgba(238, 242, 240, .1); border: 1px solid rgba(238, 242, 240, .22); font-size: clamp(1.02rem, 1rem + .25vw, 1.2rem); margin-left: calc(var(--i) * 2% - 2%); }
+.vague-mot:nth-child(even) { margin-left: 8%; }
+@media (max-width: 760px) { .mer-grille { grid-template-columns: minmax(0, 1fr); } .vague-mot, .vague-mot:nth-child(even) { margin-left: 0; border-radius: 22px; } }
+
+/* 3. L'espace paisible : le ruisseau s'ouvre en plein écran. */
+.espace { background: var(--nuit); color: #fff; --fx-longueur: 200svh; }
+.espace-cadre { position: relative; display: grid; place-items: center; }
+.espace-media { position: absolute !important; inset: 0; }
+.espace-media::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, rgba(10, 25, 20, .35), rgba(10, 25, 20, .05) 70%); z-index: 1; pointer-events: none; }
+.espace-media .mention-ia { z-index: 3; }
+.espace-mots { position: relative; z-index: 2; display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .4em; margin: 0; padding: 0 var(--gouttiere); font-family: var(--police-titres); font-size: clamp(2.4rem, min(7vw, 11vh), 7rem); line-height: 1.02; text-align: center; text-shadow: 0 4px 30px rgba(0, 0, 0, .35); }
+.espace-mots span:last-child { color: #FFE4D8; }
+.espace-apres { position: absolute; z-index: 2; left: 50%; bottom: calc(var(--barres-h) + 9svh); width: min(560px, 86vw); transform: translateX(-50%); margin: 0; padding: 18px 22px; border-radius: 18px; background: rgba(19, 41, 61, .86); color: var(--brume); font-size: clamp(1rem, .96rem + .3vw, 1.2rem); text-align: center; }
+:is(html.secours, html:not(.js)) .espace-media { position: absolute !important; }
+:is(html.secours, html:not(.js)) .espace-apres { position: relative; left: auto; bottom: auto; transform: none; margin: 24px auto 0; }
+:is(html.secours, html:not(.js)) .espace-cadre { padding: 18svh 0; }
+
+/* 4. Tu n'as pas besoin : galets ; Que dirais-tu. */
+.besoin { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.galets { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 14px; }
+.galet { position: relative; display: flex; align-items: center; gap: 16px; padding: 18px 22px 18px 18px; border-radius: 40px 60px 50px 30px / 30px 40px 60px 50px; background: #fff; box-shadow: 0 18px 40px -26px rgba(19, 41, 61, .45); }
+.galet:nth-child(2) { border-radius: 60px 30px 40px 50px / 40px 50px 30px 60px; margin-left: 6%; }
+.galet:nth-child(3) { border-radius: 30px 50px 60px 40px / 50px 30px 40px 60px; margin-left: 2%; }
+.galet:nth-child(4) { border-radius: 50px 40px 30px 60px / 60px 40px 50px 30px; margin-left: 8%; }
+.galet-onde { position: relative; flex: none; width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--coeur); }
+.galet-onde::before, .galet-onde::after { content: ""; position: absolute; inset: -7px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--coeur) 50%, transparent); }
+.galet-onde::after { inset: -14px; border-color: color-mix(in srgb, var(--coeur) 25%, transparent); }
+.galet-texte { font-size: 1.08rem; }
+.besoin-suite { display: grid; gap: 28px; }
+.besoin-mains { width: min(100%, 300px); aspect-ratio: 4 / 5; }
+.besoin-titre2 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.5rem); }
+.coches, .tirets { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.coches li, .tirets li { position: relative; padding-left: 34px; }
+.coches li::before { content: ""; position: absolute; left: 0; top: .3em; width: 20px; height: 20px; border-radius: 50%; background: var(--coeur); -webkit-mask: radial-gradient(circle, #000 34%, transparent 36%, transparent 52%, #000 54%); mask: radial-gradient(circle, #000 34%, transparent 36%, transparent 52%, #000 54%); }
+.tirets li::before { content: ""; position: absolute; left: 2px; top: .8em; width: 16px; height: 2px; background: currentColor; opacity: .5; }
+@media (min-width: 761px) { .besoin-suite { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: end; } .besoin-tete { position: sticky; top: calc(var(--entete-h) + 32px); } }
+@media (max-width: 760px) { .besoin { grid-template-columns: minmax(0, 1fr); } .galet, .galet:nth-child(n) { margin-left: 0; } .besoin-mains { width: 62%; aspect-ratio: 4 / 4; } }
+
+/* 5. Le mois : quatre semaines et le fil des messages. */
+.mois { padding: var(--section) 0; }
+.mois-tete { max-width: 760px; }
+.mois-texte { font-size: 1.1rem; }
+.semaines { position: relative; margin: 48px 0 40px; }
+.semaines-liste { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; position: relative; z-index: 1; }
+.semaine { display: grid; justify-items: center; gap: 10px; text-align: center; }
+.semaine-num { font-family: var(--police-titres); font-size: clamp(1.2rem, 1rem + .8vw, 1.7rem); }
+.semaine-point { width: 22px; height: 22px; border-radius: 50%; background: var(--coeur); box-shadow: 0 0 0 6px var(--ecume), 0 0 0 7px color-mix(in srgb, var(--coeur) 40%, transparent); }
+.semaine-texte { font-size: .98rem; color: var(--texte-doux); }
+.semaines-fil { position: absolute; left: 0; right: 0; top: calc(clamp(1.2rem, 1rem + .8vw, 1.7rem) * 1.25 + 12px); width: 100%; height: 50px; overflow: visible; fill: none; stroke: var(--nuit); stroke-width: 2; stroke-dasharray: 6 8; vector-effect: non-scaling-stroke; opacity: .45; }
+.semaines-legende { margin: 14px 0 0; text-align: center; font-weight: 600; color: var(--mousse); }
+.semaines-legende::before { content: ""; display: inline-block; width: 26px; height: 0; border-top: 2px dashed currentColor; vertical-align: middle; margin-right: 10px; }
+.mois-bas { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: stretch; }
+.piliers { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.piliers li { padding: 22px 24px; border-radius: 20px; background: var(--brume); }
+.piliers h3 { margin-bottom: .3em; }
+.piliers p { margin: 0; }
+.prix-carte { position: relative; display: grid; justify-items: start; align-content: start; gap: 6px; padding: 28px; border-radius: 28px; background: var(--nuit); color: var(--brume); overflow: hidden; }
+.prix-carte .bouton { margin-top: 14px; }
+.prix-photo { position: absolute !important; right: -6%; top: -8%; width: 46%; aspect-ratio: 1; border-radius: 50% !important; opacity: .9; }
+.prix { margin: 0; font-family: var(--police-titres); font-size: clamp(3rem, 2rem + 4vw, 5.2rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.prix-unite { margin: 0; color: #B9CAD2; position: relative; }
+.prix-offert { margin: 8px 0 0; font-size: .95rem; color: #A9D3C9; }
+.prix-carte--plate { background: var(--nuit); margin: 18px 0; }
+.mois-bonus { margin: 28px 0 0; font-size: 1rem; color: var(--texte-doux); }
+@media (max-width: 760px) {
+  .semaines-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 28px; }
+  .semaines-fil { display: none; }
+  .mois-bas { grid-template-columns: minmax(0, 1fr); }
+  .prix-photo { width: 34%; right: 4%; top: 6%; }
+}
+
+/* 6. Témoignages en bulles. */
+.temoignages { position: relative; overflow: hidden; padding: var(--section) 0; color: var(--brume); }
+.temoignages-ondes { right: -18vmax; top: -10vmax; width: 70vmax; height: 70vmax; color: #A9D3C9; opacity: .5; }
+.bulles { list-style: none; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px; }
+.bulle { grid-column: span 2; padding: 26px 28px; border-radius: 34px; background: rgba(238, 242, 240, .08); border: 1px solid rgba(238, 242, 240, .18); }
+.bulle:nth-child(4) { grid-column: 2 / span 2; }
+.bulle:nth-child(5) { grid-column: 4 / span 2; }
+.bulle blockquote { margin: 0; }
+.bulle blockquote p { font-family: var(--police-titres); font-size: clamp(1.12rem, 1rem + .4vw, 1.35rem); line-height: 1.35; margin: 0 0 14px; }
+.bulle-qui { margin: 0; font-size: .95rem; color: #A9D3C9; font-weight: 600; }
+.temoignages .note-discrete { margin-top: 32px; color: #B9CAD2; }
+@media (max-width: 1000px) { .bulles { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .bulle, .bulle:nth-child(n) { grid-column: auto; } }
+@media (max-width: 640px) { .bulles { grid-template-columns: minmax(0, 1fr); } }
+
+/* 7. Pour qui. */
+.pourtoi { padding: var(--section) 0; }
+.pourtoi-intro { font-size: 1.15rem; }
+.pastilles { list-style: none; margin: 0 0 40px; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.pastilles li { padding: 10px 18px; border-radius: 999px; background: var(--ecume); font-weight: 600; }
+.pastilles--petites li { padding: 8px 14px; font-size: .95rem; background: var(--brume); }
+.pourtoi-colonnes { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.pourtoi-oui, .pourtoi-pas { padding: 28px; border-radius: 24px; background: #fff; }
+.pourtoi-pas { background: transparent; border: 1px solid var(--ligne); }
+@media (max-width: 760px) { .pourtoi-colonnes { grid-template-columns: minmax(0, 1fr); } }
+
+/* 8. Anne-Maëlle. */
+.moi { padding: var(--section) 0; }
+.moi-grille { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
+.moi-photos { position: relative; padding-bottom: 18%; }
+.moi-arbre { width: 74%; aspect-ratio: 3 / 4; max-height: 62svh; }
+.moi-tambour { position: absolute !important; right: 0; bottom: 0; width: 44%; aspect-ratio: 1; border-radius: 50% !important; box-shadow: 0 0 0 8px var(--ecume); }
+.outils { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin: 24px 0; }
+.outils > div { padding: 20px 22px; border-radius: 20px; background: var(--brume); }
+.outils h3 { font-size: 1.2rem; margin-bottom: .3em; }
+.outils p { margin: 0; font-size: 1rem; }
+.genies-titre { font-weight: 600; margin-bottom: 10px; }
+.moi .pastilles { margin-bottom: 18px; }
+@media (max-width: 760px) { .moi-grille, .outils { grid-template-columns: minmax(0, 1fr); } .moi-arbre { width: 62%; aspect-ratio: 4 / 4; } .moi-tambour { width: 34%; } .moi-photos { padding-bottom: 10%; } }
+
+/* 9. Autres portes. */
+.aussi { padding: var(--section) 0 calc(var(--section) * .6); }
+.portes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 28px; }
+.porte { display: grid; align-content: start; gap: 8px; padding: 14px 14px 18px; border-radius: 26px; background: #fff; text-decoration: none; box-shadow: 0 20px 40px -32px rgba(19, 41, 61, .6); }
+.porte-media { aspect-ratio: 4 / 3; border-radius: 16px; }
+.porte-titre { font-family: var(--police-titres); font-size: 1.5rem; padding: 6px 6px 0; }
+.porte-texte { padding: 0 6px; color: var(--texte-doux); }
+.porte .lien-fleche { padding: 0 6px; }
+@media (max-width: 860px) { .portes { grid-template-columns: minmax(0, 1fr); } .porte-media { aspect-ratio: 16 / 9; } }
+
+/* 10. FAQ. */
+.faq { padding: calc(var(--section) * .6) 0 var(--section); display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 80px); align-items: start; }
+.faq-item { border-top: 1px solid var(--ligne); }
+.faq-item:last-child { border-bottom: 1px solid var(--ligne); }
+.faq-item summary { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-weight: 600; font-size: 1.08rem; cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: ""; flex: none; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--coeur); background: linear-gradient(var(--coeur), var(--coeur)) center / 10px 2px no-repeat, linear-gradient(var(--coeur), var(--coeur)) center / 2px 10px no-repeat; transition: transform .3s var(--courbe); }
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-item p { margin: 0 0 20px; max-width: 40em; }
+@media (max-width: 760px) { .faq { grid-template-columns: minmax(0, 1fr); } }
+
+/* Appel final : ondes en canvas. */
+.fin { position: relative; overflow: hidden; padding: calc(var(--section) * 1.1) 0; text-align: center; isolation: isolate; }
+.fin-ondes { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+.fin-contenu { display: grid; justify-items: center; }
+.fin-contenu > p { max-width: 36em; color: #CFDDE2; font-size: 1.12rem; }
+.fin h2 { font-size: clamp(2.4rem, 1.6rem + 3.6vw, 4.8rem); }
+.fin-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.fin-tel a { font-family: var(--police-titres); font-size: 1.5rem; color: var(--brume); text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.fin-contenu > .prix { font-size: clamp(3rem, 2rem + 4vw, 5.4rem); color: var(--brume); max-width: none; margin-bottom: .3em; }
+
+/* Pages intérieures : titres. */
+.titre-page { font-size: clamp(2.4rem, min(5.4vw, 9vh), 5.4rem); line-height: 1.02; margin-bottom: .4em; }
+.titre-geant { font-size: clamp(2.6rem, min(8vw, 12vh), 8.4rem); line-height: .98; letter-spacing: -.02em; margin-bottom: .3em; }
+.page-intro { font-size: clamp(1.05rem, 1rem + .3vw, 1.25rem); max-width: 34em; }
+
+/* Immersion animale. */
+.ouv-animal { min-height: min(100svh, 920px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: center; padding: calc(var(--entete-h) + 32px) 0 calc(var(--barres-h) + 40px); }
+.ouv-animal-media { position: relative; color: var(--mousse); }
+.ouv-animal-photo { width: 100%; aspect-ratio: 4 / 3.4; max-height: 54svh; border-radius: 48% 52% 46% 54% / 56% 48% 52% 44%; }
+.ouv-animal-ondes { left: -14%; top: -18%; width: 128%; height: 136%; opacity: .55; }
+@media (max-width: 760px) {
+  .ouv-animal { grid-template-columns: minmax(0, 1fr); padding-top: calc(var(--entete-h) + 20px); min-height: 0; gap: 18px; }
+  .ouv-animal-media { order: 2; }
+  .ouv-animal-photo { max-height: 30svh; aspect-ratio: 4 / 3; }
+}
+@media (max-height: 500px) and (min-width: 561px) { .ouv-animal { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); padding-top: calc(var(--entete-h) + 8px); } .ouv-animal-photo { max-height: 62svh; } .titre-page { font-size: clamp(1.6rem, 7.6vh, 2.4rem); } }
+.especes { position: relative; overflow: hidden; padding: var(--section) 0; isolation: isolate; }
+.especes-fond { position: absolute; inset: 0; z-index: -1; border-radius: 0; }
+.especes-fond::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(19, 41, 61, .92), rgba(19, 41, 61, .6) 55%, rgba(19, 41, 61, .3)); z-index: 1; }
+.especes-fond .mention-ia { z-index: 3; }
+.especes-contenu { max-width: 680px; margin-left: max(var(--gouttiere), calc((100% - var(--largeur)) / 2)); }
+.especes-contenu > p { color: #DDE8EA; font-size: 1.12rem; }
+.especes-liste { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.especes-liste li { padding: 10px 18px; border-radius: 999px; background: rgba(238, 242, 240, .14); border: 1px solid rgba(238, 242, 240, .3); font-weight: 600; }
+.preparer { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
+.cartes-num { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 14px; }
+.cartes-num li { position: relative; padding: 20px 22px 20px 78px; border-radius: 22px; background: #fff; }
+.cartes-num h3 { margin-bottom: .25em; }
+.cartes-num p { margin: 0; }
+.num { position: absolute; left: 20px; top: 20px; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--nuit); color: var(--brume); font-family: var(--police-titres); }
+.preparer-photo { aspect-ratio: 4 / 5; max-height: 64svh; }
+@media (max-width: 760px) { .preparer { grid-template-columns: minmax(0, 1fr); } .preparer-photo { aspect-ratio: 4 / 3; } }
+.deroule { padding: var(--section) 0; }
+.etapes { list-style: none; margin: 36px 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; position: relative; }
+.etapes::before { content: ""; position: absolute; left: 4%; right: 4%; top: 24px; height: 2px; background: repeating-linear-gradient(90deg, var(--nuit) 0 6px, transparent 6px 14px); opacity: .35; }
+.etapes--trois { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.etape { position: relative; display: grid; align-content: start; gap: 12px; }
+.etape-rond { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 50%; background: var(--coeur); color: #fff; font-family: var(--police-titres); font-size: 1.3rem; box-shadow: 0 0 0 7px var(--ecume); }
+.etape-rond--mot { width: 22px; height: 22px; margin: 14px 0; }
+.etape p { margin: 0; }
+@media (max-width: 860px) { .etapes, .etapes--trois { grid-template-columns: minmax(0, 1fr); gap: 22px; } .etapes::before { left: 24px; right: auto; top: 0; bottom: 0; width: 2px; height: auto; background: repeating-linear-gradient(180deg, var(--nuit) 0 6px, transparent 6px 14px); } .etape { grid-template-columns: 50px minmax(0, 1fr); align-items: center; column-gap: 16px; } .etape h3 { grid-column: 2; } .etape p { grid-column: 2; } .etape-rond--mot { margin: 0 14px; } }
+.temoins { padding: var(--section) 0; }
+.temoins-grille { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); align-items: center; margin-top: 28px; }
+.temoins-photo { aspect-ratio: 4 / 5; max-height: 60svh; }
+.temoins-liste { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.temoins-liste li { padding: 22px 24px; border-radius: 26px; background: #fff; }
+.temoins-liste blockquote { margin: 0; }
+.temoins-liste blockquote p { font-family: var(--police-titres); font-size: 1.15rem; line-height: 1.4; margin: 0 0 8px; }
+.temoins .bulle-qui { color: var(--mousse); }
+@media (max-width: 760px) { .temoins-grille { grid-template-columns: minmax(0, 1fr); } .temoins-photo { aspect-ratio: 16 / 10; } }
+
+/* École. */
+.ouv-ecole { padding: calc(var(--entete-h) + 28px) 0 0; }
+.ouv-ecole-bas { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px 48px; align-items: end; }
+.ouv-ecole-bandeau { width: min(100% - 2 * var(--gouttiere), 1500px); margin: clamp(24px, 4vw, 48px) auto 0; }
+.ouv-ecole-media { width: 100%; aspect-ratio: 21 / 8; max-height: 46svh; border-radius: 30px; }
+@media (max-width: 760px) { .ouv-ecole-bas { grid-template-columns: minmax(0, 1fr); } .ouv-ecole-media { aspect-ratio: 4 / 3; max-height: 32svh; } }
+@media (max-height: 820px) and (min-width: 761px) { .titre-geant { font-size: clamp(2.4rem, min(7vw, 10.4vh), 7rem); } .ouv-ecole-media { max-height: 32svh; } }
+@media (max-height: 500px) and (min-width: 561px) { .titre-geant { font-size: clamp(1.6rem, 9vh, 2.6rem); } .ouv-ecole-media { max-height: 40svh; } .ouv-ecole { padding-top: calc(var(--entete-h) + 8px); } }
+.seances { padding: var(--section) 0 calc(var(--section) * .7); }
+.seances-liste { list-style: none; margin: 32px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.seance { position: relative; padding: 30px 28px; border-radius: 28px; background: #fff; overflow: hidden; }
+.seance-num { display: block; font-family: var(--police-titres); font-size: 4.4rem; line-height: 1; color: var(--coeur); margin-bottom: 12px; }
+.seance p { margin: 0; }
+@media (max-width: 860px) { .seances-liste { grid-template-columns: minmax(0, 1fr); } }
+.suivi { padding: var(--section) 0; }
+.parents { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+.themes-titre { font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.4rem); }
+@media (max-width: 760px) { .parents { grid-template-columns: minmax(0, 1fr); } }
+.equipe { padding: var(--section) 0; }
+.equipe-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; margin-top: 28px; }
+.personne { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 22px; align-items: center; padding: 18px; border-radius: 28px; background: var(--brume); }
+.personne-photo { aspect-ratio: 4 / 5; }
+.personne p { margin: 0; }
+@media (max-width: 860px) { .equipe-grille { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 420px) { .personne { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 14px; } .personne p { font-size: .95rem; } }
+.candidature, .rdv { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+.formulaire { padding: clamp(22px, 3vw, 36px); border-radius: 28px; background: #fff; box-shadow: 0 30px 60px -44px rgba(19, 41, 61, .6); }
+.champs-deux { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 16px; }
+.champ input, .champ select, .champ textarea { background: var(--brume); border-color: rgba(19, 41, 61, .3); border-radius: 12px; }
+@media (max-width: 760px) { .candidature, .rdv { grid-template-columns: minmax(0, 1fr); } .champs-deux { grid-template-columns: minmax(0, 1fr); } }
+.choix { border: 0; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.choix legend { font-weight: 600; margin-bottom: 8px; padding: 0; }
+.choix-pastille { position: relative; display: inline-flex; }
+.choix-pastille input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.choix-pastille span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid rgba(19, 41, 61, .3); background: var(--brume); font-size: .98rem; transition: background-color .2s, color .2s, border-color .2s; }
+.choix-pastille input:checked + span { background: var(--nuit); color: var(--brume); border-color: var(--nuit); }
+.choix-pastille input:focus-visible + span { outline: 3px solid var(--coeur); outline-offset: 2px; }
+
+/* À propos. */
+.ouv-apropos { position: relative; min-height: min(100svh, 980px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: calc(var(--entete-h) + 24px) 0 calc(var(--barres-h) + 28px); }
+.ouv-apropos-photo { position: relative; height: min(36svh, 400px); aspect-ratio: 2 / 3; margin-bottom: 18px; color: var(--mousse); }
+.ouv-apropos-media { width: 100%; height: 100%; border-radius: 999px 999px 26px 26px; box-shadow: 0 40px 80px -40px rgba(19, 41, 61, .6); }
+.ouv-apropos-ondes { position: absolute; left: -60%; bottom: -14%; width: 220%; height: 60%; fill: none; stroke: currentColor; stroke-width: .6; opacity: .5; overflow: visible; pointer-events: none; z-index: -1; }
+.ouv-apropos-ondes ellipse { transform-box: fill-box; transform-origin: center; animation: respire 6s var(--courbe) infinite; animation-delay: calc(var(--i) * -1.4s); }
+.ouv-apropos .surtitre { margin-bottom: .4rem; }
+.ouv-apropos-nom { margin: 0 0 .25em; font-size: clamp(2.6rem, min(7.4vw, 11vh), 8rem); line-height: .98; letter-spacing: -.025em; }
+.ouv-apropos-nom .ligne-masque { display: inline-block; }
+.ouv-apropos .citation { max-width: 30em; }
+.ouv-apropos-texte { max-width: 36em; }
+.ouv-apropos .hero-actions { justify-content: center; }
+.citation { margin: 0 0 18px; }
+.citation p { font-family: var(--police-titres); font-size: clamp(1.2rem, 1rem + .8vw, 1.7rem); line-height: 1.3; margin: 0; }
+@media (max-width: 760px) { .ouv-apropos { min-height: 0; padding-top: calc(var(--entete-h) + 20px); } .ouv-apropos-photo { height: 30svh; } .ouv-apropos-nom { font-size: clamp(2.4rem, 12.5vw, 4rem); } .ouv-apropos-nom .ligne-masque { display: block; } .ouv-apropos .citation p { font-size: 1.12rem; } }
+@media (max-height: 820px) and (min-width: 761px) { .ouv-apropos-photo { height: 30svh; } .ouv-apropos-nom { font-size: clamp(2.4rem, min(6.6vw, 10vh), 6rem); } }
+@media (max-height: 500px) and (min-width: 561px) { .ouv-apropos { padding-top: calc(var(--entete-h) + 6px); } .ouv-apropos-photo { height: 34svh; margin-bottom: 6px; } .ouv-apropos-nom { font-size: clamp(1.8rem, 11vh, 2.8rem); } .ouv-apropos .citation p { font-size: 1rem; } .ouv-apropos .citation { margin-bottom: 8px; } }
+.mot { padding: var(--section) 0; overflow: hidden; }
+.mot-grille { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, .6fr); gap: 24px clamp(28px, 5vw, 80px); align-items: center; }
+.mot-geant { grid-column: 1 / -1; margin: 0; font-family: var(--police-titres); font-size: clamp(2.8rem, 11vw, 10rem); line-height: 1; letter-spacing: -.03em; color: var(--nuit); }
+.mot-texte p { font-size: clamp(1.1rem, 1rem + .5vw, 1.45rem); max-width: 34em; }
+.mot-tambour { width: min(100%, 260px); aspect-ratio: 1; border-radius: 50% !important; justify-self: end; }
+@media (max-width: 760px) { .mot-grille { grid-template-columns: minmax(0, 1fr); } .mot-tambour { width: 46%; justify-self: start; } }
+.page-blanche { position: relative; overflow: hidden; padding: calc(var(--section) * 1.2) 0; isolation: isolate; }
+.page-blanche-fond { position: absolute; inset: 0; z-index: -1; border-radius: 0; }
+.page-blanche-fond::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(19, 41, 61, .94), rgba(19, 41, 61, .6) 55%, rgba(19, 41, 61, .25)); z-index: 1; }
+.page-blanche-fond .mention-ia { z-index: 3; }
+.page-blanche-contenu { max-width: 640px; margin-left: max(var(--gouttiere), calc((100% - var(--largeur)) / 2)); }
+.page-blanche-contenu > p:not(.annee) { color: #DDE8EA; font-size: 1.12rem; }
+.annee { font-family: var(--police-titres); font-size: clamp(3.4rem, 2rem + 6vw, 7rem); line-height: 1; margin: 0 0 .2em; color: var(--coeur-clair); }
+.parcours { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+.parcours-tete { position: sticky; top: calc(var(--entete-h) + 32px); }
+.frise-cadre { position: relative; }
+.frise-fil { position: absolute; left: 0; top: 0; width: 20px; height: 100%; fill: none; stroke: var(--coeur); stroke-width: 2; vector-effect: non-scaling-stroke; overflow: visible; }
+.frise { list-style: none; margin: 0; padding: 0 0 0 44px; display: grid; gap: 22px; }
+.frise-item { position: relative; padding: 18px 22px; border-radius: 22px; background: #fff; }
+.frise-item::before { content: ""; position: absolute; left: -40px; top: 26px; width: 12px; height: 12px; border-radius: 50%; background: var(--brume); border: 3px solid var(--coeur); }
+.frise-quand { display: block; font-family: var(--police-titres); font-size: 1.25rem; margin-bottom: 4px; }
+.frise-item p { margin: 0; }
+@media (max-width: 760px) { .parcours { grid-template-columns: minmax(0, 1fr); } .parcours-tete { position: static; } }
+.valeurs { padding: var(--section) 0; }
+.valeurs-liste { list-style: none; margin: 28px 0 40px; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.valeurs-liste li { padding: 12px 20px; border-radius: 999px; background: var(--brume); font-family: var(--police-titres); font-size: clamp(1.05rem, 1rem + .4vw, 1.35rem); }
+.valeurs-liste li:nth-child(3n + 1) { background: var(--nuit); color: var(--brume); }
+.citations { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; }
+.citations .citation { padding: 26px 28px; border-radius: 26px; background: var(--brume); }
+@media (max-width: 760px) { .citations { grid-template-columns: minmax(0, 1fr); } }
+.foret { padding: var(--section) 0; display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
+.foret-grille { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.foret-grille .media { aspect-ratio: 2 / 3; max-height: 52svh; }
+.foret-b { margin-top: 18%; }
+.foret-c { margin-top: 6%; }
+@media (max-width: 760px) { .foret { grid-template-columns: minmax(0, 1fr); } .foret-grille .media { aspect-ratio: 3 / 4; max-height: 34svh; } }
+
+/* Contact & tarifs. */
+.ouv-contact { min-height: min(100svh, 900px); display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: clamp(24px, 5vw, 80px); align-items: center; padding: calc(var(--entete-h) + 28px) 0 calc(var(--barres-h) + 36px); }
+.ouv-contact-rond { position: relative; justify-self: center; width: clamp(200px, min(24vw, 40vh), 360px); aspect-ratio: 1; color: var(--mousse); }
+.ouv-contact-rond .hero-ondes { inset: -30%; width: 160%; height: 160%; }
+.ouv-contact .hero-rond { box-shadow: 0 0 0 8px #fff, 0 0 0 22px color-mix(in srgb, var(--ecume) 70%, transparent), 0 30px 60px -30px rgba(19, 41, 61, .5); }
+.ouv-contact .hero-info a { text-decoration: none; font-family: var(--police-titres); font-size: 1.35rem; display: inline-flex; min-height: 44px; align-items: center; }
+@media (max-width: 760px) { .ouv-contact { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-top: calc(var(--entete-h) + 20px); gap: 12px; } .ouv-contact-rond { width: min(40vw, 20svh); justify-self: start; order: -1; margin: 10px 0 10px 12px; } }
+@media (max-height: 500px) and (min-width: 561px) { .ouv-contact { padding-top: calc(var(--entete-h) + 6px); } .ouv-contact-rond { width: 34vh; } }
+.tarifs { padding: var(--section) 0; }
+.tarifs-grille { list-style: none; margin: 32px 0 20px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.tarif { display: grid; align-content: start; gap: 10px; padding: 26px 26px 20px; border-radius: 26px; background: var(--brume); }
+.tarif h3 { margin: 0; }
+.tarif p { margin: 0; }
+.tarif--vedette { grid-row: span 2; background: var(--nuit); color: var(--brume); --texte-doux: #B9CAD2; }
+.tarif--vedette .lien-fleche { color: var(--coeur-clair); }
+.tarif-prix, .tarif-forfait { font-family: var(--police-titres); font-size: clamp(2rem, 1.4rem + 2vw, 3rem); line-height: 1.05; font-variant-numeric: tabular-nums; }
+.tarif--vedette .tarif-prix { font-size: clamp(3rem, 2rem + 4vw, 5.4rem); }
+.tarif-forfait { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); }
+.tarif-prix small, .tarif-forfait small { font-family: var(--police-texte); font-size: .95rem; color: var(--texte-doux); }
+.bascule { display: inline-flex; padding: 4px; border-radius: 999px; background: #fff; justify-self: start; }
+.bascule button { min-height: 44px; padding: 0 16px; border: 0; border-radius: 999px; background: transparent; font-weight: 600; font-size: .95rem; transition: background-color .25s, color .25s; }
+.bascule button[aria-pressed="true"] { background: var(--nuit); color: var(--brume); }
+[data-sophro-seance], [data-sophro-forfait] { display: inline-block; min-width: 3.2em; }
+@media (max-width: 960px) { .tarifs-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+@media (max-width: 640px) { .tarifs-grille { grid-template-columns: minmax(0, 1fr); } .tarif--vedette { grid-row: auto; } }
+.rdv-photo { width: min(100%, 360px); aspect-ratio: 4 / 5; max-height: 46svh; margin-top: 24px; }
+@media (max-width: 760px) { .rdv-photo { aspect-ratio: 16 / 10; max-height: 30svh; } }
+.zone { padding: var(--section) 0; }
+.zone-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: center; }
+.zone-grille > div > p { color: #DDE8EA; font-size: 1.12rem; }
+.zone-carte { width: min(100%, 440px); justify-self: center; overflow: visible; }
+.zone-ondes { fill: none; stroke: rgba(169, 211, 201, .35); stroke-width: 1; }
+.zone-rayon { fill: rgba(200, 69, 47, .14); stroke: var(--coeur-clair); stroke-width: 2; stroke-dasharray: 5 7; }
+.zone-centre { fill: var(--coeur-clair); }
+.zone-ligne { stroke: var(--brume); stroke-width: 1.5; }
+.zone-nom, .zone-km { fill: var(--brume); font-family: var(--police-titres); font-size: 18px; }
+.zone-loin { fill: #A9D3C9; font-family: var(--police-texte); font-size: 15px; font-weight: 600; }
+@media (max-width: 760px) { .zone-grille { grid-template-columns: minmax(0, 1fr); } .zone-carte { width: min(100%, 300px); } }
+.coordonnees { padding: var(--section) 0; }
+.coord-grille { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin: 28px 0 0; }
+.coord-grille > div { padding: 22px; border-radius: 22px; background: #fff; }
+.coord-grille dt { font-weight: 600; color: var(--mousse); margin-bottom: 4px; font-size: .95rem; }
+.coord-grille dd { margin: 0; font-family: var(--police-titres); font-size: 1.15rem; }
+.coord-grille dd a { display: inline-flex; min-height: 44px; align-items: center; }
+@media (max-width: 960px) { .coord-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+@media (max-width: 560px) { .coord-grille { grid-template-columns: minmax(0, 1fr); } }
+
+/* 404. */
+.introuvable { position: relative; min-height: 100svh; display: flex; align-items: center; overflow: hidden; isolation: isolate; padding: calc(var(--entete-h) + 24px) 0 calc(var(--barres-h) + 24px); }
+.introuvable-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
+.introuvable-contenu > p { color: #DDE8EA; font-size: 1.15rem; }
+.introuvable-media { width: 100%; aspect-ratio: 16 / 10; max-height: 34svh; border-radius: 999px 999px 30px 30px; }
+@media (max-width: 760px) { .introuvable-grille { grid-template-columns: minmax(0, 1fr); } .introuvable-media { max-height: 26svh; } }
+
+/* Pied de page. */
+.pied { position: relative; overflow: hidden; background: var(--nuit-2); color: var(--brume); border-top: 0; --texte-doux: #B9CAD2; --ligne: rgba(238, 242, 240, .16); padding-top: 72px; }
+.pied a { color: var(--brume); }
+.pied-logo { display: flex; align-items: center; gap: 12px; font-family: var(--police-titres); font-size: 1.3rem; }
+.pied-logo img { width: 56px; height: 56px; border-radius: 50%; }
+.pied-logo strong { font-weight: 400; }
+.pied-titre { font-weight: 600; color: #A9D3C9; margin-bottom: 6px; }
+.pied-grille { grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr)); }
+.pied-ondes { position: absolute; right: -10%; top: -40%; width: 60%; aspect-ratio: 1; border-radius: 50%; background: repeating-radial-gradient(circle, transparent 0 26px, rgba(169, 211, 201, .08) 27px 28px); pointer-events: none; }
+.pied-bas p { margin: 0; }
+@media (max-width: 860px) { .pied-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .pied-marque { grid-column: 1 / -1; } }
+@media (max-width: 480px) { .pied-grille { grid-template-columns: minmax(0, 1fr); } }
+[data-barre-fixe] { background: var(--brume); }
+.curseur { border-color: var(--coeur); }
+
+/* Corrections de l'audit v1 : interlignes des prix et des grands titres, petits écrans, contrastes, superpositions. */
+.prix, .tarif-prix, .tarif-forfait, .seance-num, .annee { line-height: 1.16; }
+.prix-unite { margin-top: 4px; }
+.titre-geant, .titre-page, .hero-titre { line-height: 1.06; }
+.ouv-apropos-nom { line-height: 1.08; }
+.surtitre { margin-bottom: 1.1rem; }
+.tarif h3 { margin-bottom: 4px; }
+.prix-photo { position: static !important; width: 88px; aspect-ratio: 1; border-radius: 50% !important; margin-bottom: 10px; opacity: 1; }
+.pied .bouton, .theme-nuit .bouton:not(.bouton--contour) { color: #fff; }
+.entete-logo { min-width: 44px; }
+.mention-ia { font-size: 13px; }
+.hero-signature { padding: 4px 12px; border-radius: 999px; background: rgba(14, 33, 50, .82); }
+.temoignages { isolation: isolate; }
+.temoignages-ondes { z-index: -1; }
+.hero-ondes, .ouv-animal-ondes { z-index: -1; }
+.ouv-contact, .ouv-animal { position: relative; isolation: isolate; }
+@media (max-width: 380px) { .hero-signature { display: none; } }
+@media (max-width: 760px) and (max-height: 700px) {
+  .hero-sur, .hero-intro, .page-intro, .ouv-apropos-texte, .ouv-apropos .surtitre, .ouv-contact .surtitre, .ouv-animal .surtitre, .ouv-ecole .surtitre { display: none; }
+  .hero-portrait { width: min(30vw, 17svh); margin: 0 0 10px 6px; }
+  .hero-titre { font-size: clamp(1.8rem, 9vw, 2.3rem); }
+  .titre-page, .titre-geant { font-size: clamp(1.9rem, 10vw, 2.6rem); }
+  .ouv-apropos-photo { height: 20svh; margin-bottom: 8px; }
+  .ouv-apropos-nom { font-size: clamp(2rem, 11vw, 2.6rem); }
+  .ouv-apropos .citation p { font-size: 1rem; }
+  .ouv-contact-rond { width: min(28vw, 15svh); margin: 4px 0 6px 10px; }
+  .ouv-animal-photo { max-height: 22svh; }
+  .ouv-ecole-media { max-height: 22svh; }
+  .hero, .ouv-animal, .ouv-contact, .ouv-apropos, .ouv-ecole { padding-top: calc(var(--entete-h) + 10px); }
+}
+
+/* Contact : ouverture avec le coin des fauteuils (le lieu du premier rendez-vous). */
+.ouv-contact-photo { position: relative; justify-self: center; width: clamp(220px, min(26vw, 44vh), 380px); }
+.ouv-contact-media { width: 100%; aspect-ratio: 4 / 5; border-radius: 999px 999px 28px 28px; box-shadow: 0 40px 80px -40px rgba(19, 41, 61, .55); }
+.ouv-contact-bulle { position: absolute; left: -18%; bottom: 12%; margin: 0; padding: 12px 18px; border-radius: 999px; background: var(--nuit); color: var(--brume); font-weight: 600; font-size: .98rem; white-space: nowrap; box-shadow: 0 16px 30px -18px rgba(19, 41, 61, .8); }
+.rdv-portrait { display: flex; align-items: center; gap: 16px; margin-top: 24px; }
+.rdv-rond { flex: none; width: 96px; aspect-ratio: 1; border-radius: 50% !important; }
+.rdv-portrait p { margin: 0; font-family: var(--police-titres); font-size: 1.15rem; max-width: 16em; }
+@media (max-width: 760px) { .ouv-contact-photo { width: min(62vw, 30svh); justify-self: start; display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 10px; } .ouv-contact-bulle { position: static; font-size: .9rem; } }
+@media (max-width: 760px) and (max-height: 700px) { .ouv-contact-photo { width: min(44vw, 22svh); } }
+@media (max-height: 500px) and (min-width: 561px) { .ouv-contact-photo { width: 30vh; } }
+
+/* Passe des formats v1 : marges au-dessus des très grands titres, bulle du contact, prix de la sophrologie, à propos sur écran bas. */
+.surtitre + :is(.titre-geant, .ouv-apropos-nom, .titre-page, .hero-titre) { margin-top: .2em; }
+.tarif-prix small, .tarif-forfait small { display: block; margin-top: 4px; line-height: 1.3; }
+@media (max-height: 500px) { .ouv-contact-bulle { display: none; } }
+@media (max-height: 620px) and (min-width: 761px) { .ouv-apropos .citation { display: none; } .ouv-apropos-photo { height: 24svh; } }
+@media (max-height: 500px) and (min-width: 561px) { .ouv-apropos-photo { height: 26svh; } .ouv-apropos .surtitre { display: none; } }
+/* À propos sans JavaScript (en-tête dans le flux) et écrans de 900 px de haut : la pile centrée tient dans le premier écran. */
+html:not(.js) .ouv-apropos { min-height: 0; }
+@media (max-height: 920px) and (min-width: 761px) { .ouv-apropos-photo { height: min(30svh, 300px); } }

@@ -1,0 +1,2705 @@
+{
+  "dossier": "/home/claude/annemaelle-mereveillance-maquette/recu",
+  "date": "2026-11-17T12:44:13.022Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "image.jpg",
+      "ecarter": "contacte-moi.webp",
+      "type": "doublon",
+      "distance": 4,
+      "ressemblance": 1
+    },
+    {
+      "garder": "estelle-roux.jpg",
+      "ecarter": "anne-maelle-arbre.jpg",
+      "type": "doublon",
+      "distance": 0,
+      "ressemblance": 1
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 150,
+      "hauteur": 151,
+      "ratio": "1:1",
+      "ratio_valeur": 0.993,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 7419,
+      "transparence": true,
+      "sujet": {
+        "x": 12.5,
+        "y": 12.5,
+        "l": 78.1,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        71
+      ],
+      "cadrage_css": "55% 71%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 71,
+        "bruit": 1.18,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1311dd6d7173230f",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "jeune-femme-mode.jpg",
+      "nom": "jeune-femme-mode",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 199979,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        43
+      ],
+      "cadrage_css": "48% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 18.8,
+        "bruit": 0.43,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dbdfdeaee4cc5ef7",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "portrait-mere-fille.jpg",
+      "nom": "portrait-mere-fille",
+      "drapeau": "portrait",
+      "largeur": 1537,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.769,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 294592,
+      "transparence": false,
+      "sujet": {
+        "x": 24,
+        "y": 9.4,
+        "l": 56,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        52
+      ],
+      "cadrage_css": "50% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 23.3,
+        "bruit": 0.62,
+        "compression": 1.29,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e68ebdece4ecc646",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "c-est-espace-paisible.jpg",
+      "nom": "c-est-espace-paisible",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 152067,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 4.5,
+        "l": 96.9,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        62
+      ],
+      "cadrage_css": "54% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 13.6,
+        "bruit": 0.28,
+        "compression": 1.53,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e3f373a307c68401",
+      "drapeaux": [
+        "lieu",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "famille-unwrapping.jpg",
+      "nom": "famille-unwrapping",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 325177,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        45
+      ],
+      "cadrage_css": "46% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 19.4,
+        "bruit": 0.64,
+        "compression": 1.35,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "785e163e2ea69c93",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "femme-tenue-classique.jpg",
+      "nom": "femme-tenue-classique",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1247,
+      "ratio": "16:10",
+      "ratio_valeur": 1.604,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 199933,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 5,
+        "l": 18.8,
+        "h": 55,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 36,
+        "bruit": 0.75,
+        "compression": 1.06,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "989a989ab0e2e0e2",
+      "drapeaux": [
+        "lieu",
+        "calme droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "specificites-accompagnement.jpg",
+      "nom": "specificites-accompagnement",
+      "drapeau": "autre",
+      "largeur": 1512,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.756,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 353197,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        55
+      ],
+      "cadrage_css": "51% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 21,
+        "bruit": 0.34,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "383970646c602131",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "image.jpg",
+      "nom": "image",
+      "drapeau": "autre",
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 965728,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 95.5,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 56.3,
+        "bruit": 1.48,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "69e0d85088b9ed38",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "image-2.png",
+      "nom": "image-2",
+      "drapeau": "autre",
+      "largeur": 1870,
+      "hauteur": 742,
+      "ratio": "2.52",
+      "ratio_valeur": 2.52,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2061035,
+      "transparence": true,
+      "sujet": {
+        "x": 50,
+        "y": 7.7,
+        "l": 34.4,
+        "h": 84.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        48
+      ],
+      "cadrage_css": "66% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 44.1,
+        "bruit": 1.01,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a8f878dc9c78d888",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "specificites-accompagnement-2.jpg",
+      "nom": "specificites-accompagnement-2",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 786,
+      "ratio": "1:1",
+      "ratio_valeur": 1.018,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 57174,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        50
+      ],
+      "cadrage_css": "46% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 11.4,
+        "bruit": 0.22,
+        "compression": 1.55,
+        "faible": true,
+        "raisons": [
+          "800 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "7439993634b2a888",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "courriel.webp",
+      "nom": "courriel",
+      "drapeau": "portrait",
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 135822,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        54
+      ],
+      "cadrage_css": "52% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 22.1,
+        "bruit": 0.7,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6395d131276638e4",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi.webp",
+      "nom": "contacte-moi",
+      "drapeau": "portrait",
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 223830,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 95.5,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        49
+      ],
+      "cadrage_css": "47% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 41.7,
+        "bruit": 1.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "69e4d05088b1edb8",
+      "doublon_de": {
+        "fichier": "image.jpg",
+        "type": "doublon",
+        "distance": 4,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "doublon de image.jpg"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-2.jpg",
+      "nom": "contacte-moi-2",
+      "drapeau": "portrait",
+      "largeur": 977,
+      "hauteur": 1133,
+      "ratio": "0.86",
+      "ratio_valeur": 0.862,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 260318,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.4,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        60
+      ],
+      "cadrage_css": "49% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 15,
+        "bruit": 0.6,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "977 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "139a1a911392b4ac",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "portrait",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 77.8,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        20,
+        43
+      ],
+      "cadrage_css": "20% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-3.webp",
+      "nom": "contacte-moi-3",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10254,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 18.8,
+        "l": 81.3,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        48
+      ],
+      "cadrage_css": "43% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 9.6,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c48983e651e1a56c",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-4.webp",
+      "nom": "contacte-moi-4",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12430,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 18.8,
+        "l": 96.9,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        58
+      ],
+      "cadrage_css": "44% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 35,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "69e3c28232c78eb8",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-5.webp",
+      "nom": "contacte-moi-5",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14942,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 3.1,
+        "l": 93.8,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        38
+      ],
+      "cadrage_css": "42% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        }
+      ],
+      "qualite": {
+        "nettete": 29.6,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "981212c624676b31",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-6.webp",
+      "nom": "contacte-moi-6",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 23344,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 21.9,
+        "l": 87.5,
+        "h": 78.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        41
+      ],
+      "cadrage_css": "45% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 33,
+        "bruit": 0.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "64553424357b0bab",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-7.webp",
+      "nom": "contacte-moi-7",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 27128,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        57
+      ],
+      "cadrage_css": "49% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 10.2,
+        "bruit": 0.43,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c899189b533a2268",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-8.webp",
+      "nom": "contacte-moi-8",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11590,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 15.6,
+        "l": 100,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        43
+      ],
+      "cadrage_css": "57% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 27.1,
+        "bruit": 0.2,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0209c5e3b380a849",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-9.webp",
+      "nom": "contacte-moi-9",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15294,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 3.1,
+        "l": 81.3,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        46
+      ],
+      "cadrage_css": "62% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 24.8,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "97382c868687092d",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-10.webp",
+      "nom": "contacte-moi-10",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 9126,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        59
+      ],
+      "cadrage_css": "50% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 8.9,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c894981a0eb854d3",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-11.webp",
+      "nom": "contacte-moi-11",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11276,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 90.6,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        74,
+        53
+      ],
+      "cadrage_css": "74% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 9.9,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "dc0d08181aa293b9",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-12.webp",
+      "nom": "contacte-moi-12",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 24114,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 40.6,
+        "l": 31.3,
+        "h": 3.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        17,
+        42
+      ],
+      "cadrage_css": "17% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 10.7,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "3224695216a40a02",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme bas/haut/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-13.webp",
+      "nom": "contacte-moi-13",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 23638,
+      "transparence": false,
+      "sujet": {
+        "x": 53.1,
+        "y": 0,
+        "l": 43.8,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        79,
+        21
+      ],
+      "cadrage_css": "79% 21%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 23.3,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "4882111736c41431",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme gauche/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contacte-moi-14.webp",
+      "nom": "contacte-moi-14",
+      "drapeau": "portrait",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12232,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 6.3,
+        "l": 96.9,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        72,
+        40
+      ],
+      "cadrage_css": "72% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 23.4,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "61c4a4818919b032",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "propos-moi.jpg",
+      "nom": "propos-moi",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 286134,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 13.6,
+        "l": 100,
+        "h": 72.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        44
+      ],
+      "cadrage_css": "52% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 24.7,
+        "bruit": 0.53,
+        "compression": 1.66,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "b892d0d1fa5ad891",
+      "drapeaux": [
+        "portrait",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "presence.webp",
+      "nom": "presence",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 906384,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 54.6,
+        "bruit": 2.17,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0f0f198d8ca543c3",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "parcours-bref.webp",
+      "nom": "parcours-bref",
+      "drapeau": "portrait",
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 273010,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        52
+      ],
+      "cadrage_css": "48% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 38.9,
+        "bruit": 1.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "79292ccb16b2b468",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "emotions.webp",
+      "nom": "emotions",
+      "drapeau": "portrait",
+      "largeur": 1366,
+      "hauteur": 1024,
+      "ratio": "4:3",
+      "ratio_valeur": 1.334,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 139128,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 29.5,
+        "bruit": 0.93,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c98904262623d187",
+      "drapeaux": [
+        "portrait"
+      ]
+    },
+    {
+      "fichier": "propos-moi-2.webp",
+      "nom": "propos-moi-2",
+      "drapeau": "portrait",
+      "largeur": 998,
+      "hauteur": 998,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 108290,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 25,
+        "l": 68.8,
+        "h": 56.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 29.9,
+        "bruit": 0.8,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "5432b0e9e9e21498",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "propos-moi-3.webp",
+      "nom": "propos-moi-3",
+      "drapeau": "portrait",
+      "largeur": 998,
+      "hauteur": 998,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 86266,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 90.6,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 48.3,
+        "bruit": 0.81,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8195c8ac2c3c682c",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "propos-moi-4.webp",
+      "nom": "propos-moi-4",
+      "drapeau": "portrait",
+      "largeur": 745,
+      "hauteur": 1203,
+      "ratio": "10:16",
+      "ratio_valeur": 0.619,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 162742,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        48
+      ],
+      "cadrage_css": "45% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 31.5,
+        "bruit": 1.28,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "745 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8307158c8c32d2d0",
+      "drapeaux": [
+        "portrait",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "fleur-or-abstraite.jpg",
+      "nom": "fleur-or-abstraite",
+      "drapeau": "autre",
+      "largeur": 1499,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 94281,
+      "transparence": false,
+      "sujet": {
+        "x": 20.8,
+        "y": 21.9,
+        "l": 54.2,
+        "h": 59.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        56
+      ],
+      "cadrage_css": "48% 56%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 16.2,
+        "bruit": 0.31,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "04b89e0c2f0e4d32",
+      "drapeaux": [
+        "autre",
+        "calme droite/haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "portrait-estelle-roux.jpg",
+      "nom": "portrait-estelle-roux",
+      "drapeau": "portrait",
+      "largeur": 1200,
+      "hauteur": 1600,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 96088,
+      "transparence": false,
+      "sujet": {
+        "x": 4.2,
+        "y": 3.1,
+        "l": 91.7,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        49
+      ],
+      "cadrage_css": "54% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 9.5,
+        "bruit": 0.34,
+        "compression": 1.94,
+        "faible": true,
+        "raisons": [
+          "1200 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "cc0ccc9797979f9f",
+      "drapeaux": [
+        "portrait",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "estelle-roux.jpg",
+      "nom": "estelle-roux",
+      "drapeau": "autre",
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 964580,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 25,
+        "l": 68.2,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        72
+      ],
+      "cadrage_css": "40% 72%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 1.82,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "92d3db9797b191b1",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "anne-maelle-regarde-chat.png",
+      "nom": "anne-maelle-regarde-chat",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1123,
+      "ratio": "16:9",
+      "ratio_valeur": 1.781,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3767777,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        35
+      ],
+      "cadrage_css": "46% 35%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 35.8,
+        "bruit": 1.47,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "355a4b4d4c787232",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "immersion-animale.webp",
+      "nom": "immersion-animale",
+      "drapeau": "lieu",
+      "largeur": 773,
+      "hauteur": 515,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 59000,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        58
+      ],
+      "cadrage_css": "51% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 58.9,
+        "bruit": 1.37,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "773 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e858189859595121",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "politique-matiere-cookies.jpg",
+      "nom": "politique-matiere-cookies",
+      "drapeau": "autre",
+      "largeur": 1900,
+      "hauteur": 1074,
+      "ratio": "16:9",
+      "ratio_valeur": 1.769,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 112563,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 22.2,
+        "l": 84.4,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        61
+      ],
+      "cadrage_css": "63% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 4,
+        "bruit": 0.13,
+        "compression": 0.8,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fcfcfcfcfce5830c",
+      "drapeaux": [
+        "autre",
+        "floue",
+        "calme haut/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "anne-maelle-arbre.jpg",
+      "nom": "anne-maelle-arbre",
+      "drapeau": null,
+      "largeur": 998,
+      "hauteur": 1500,
+      "ratio": "2:3",
+      "ratio_valeur": 0.665,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 964580,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 25,
+        "l": 68.2,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        72
+      ],
+      "cadrage_css": "40% 72%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 1.82,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "998 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "92d3db9797b191b1",
+      "doublon_de": {
+        "fichier": "estelle-roux.jpg",
+        "type": "doublon",
+        "distance": 0,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "petite",
+        "doublon de estelle-roux.jpg"
+      ]
+    }
+  ]
+}

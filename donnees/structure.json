@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Anne-Maëlle & Mèreveillance",
+  "alternateName": "Terre de Je",
+  "founder": { "@type": "Person", "name": "Anne-Maëlle Le Roux" },
+  "url": "https://annemaelle-mereveillance-maquette.vercel.app/",
+  "telephone": "+33688661928",
+  "email": "bonjour@annemaellemereveillance.fr",
+  "address": { "@type": "PostalAddress", "addressLocality": "Andouillé", "postalCode": "53240", "addressRegion": "Mayenne", "addressCountry": "FR" },
+  "areaServed": "Mayenne et à distance",
+  "description": "Accompagnement émotionnel individuel d'un mois, sophrologie, immersion animale et interventions en école, à Andouillé (Mayenne) et à distance.",
+  "sameAs": ["https://www.facebook.com/annemaellemereveillance", "https://www.instagram.com/annemaelle.mereveillance/"]
+}

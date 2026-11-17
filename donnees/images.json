@@ -1,0 +1,1536 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Terre de Je : une main d'enfant contre une main d'adulte, dans un cœur",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "e406cd9905318296",
+    "ratio": null,
+    "largeurs": [],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [],
+    "poids": {},
+    "media": "c.media({ nom: 'logo', alt: \"Terre de Je : une main d'enfant contre une main d'adulte, dans un cœur\", sizes: '240px' })"
+  },
+  "grok/mer-ouverture": {
+    "nom": "grok/mer-ouverture",
+    "source": "recu/grok/mer-ouverture.png",
+    "role": "ouverture",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "73d712e0fda1ea4a",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "54% 67%"
+    },
+    "cadrage": "62% 51%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 93.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/mer-ouverture-640.webp",
+      "grok/mer-ouverture-1280.webp",
+      "grok/mer-ouverture-1920.webp",
+      "grok/mer-ouverture-mobile-640.webp",
+      "grok/mer-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/mer-ouverture-640.webp": 16888,
+      "grok/mer-ouverture-1280.webp": 48502,
+      "grok/mer-ouverture-1920.webp": 83800,
+      "grok/mer-ouverture-mobile-640.webp": 36842,
+      "grok/mer-ouverture-mobile-1080.webp": 75934
+    },
+    "media": "c.media({ nom: 'grok/mer-ouverture', alt: \"\", cadrage: '62% 51%', cadrageMobile: '54% 67%', sizes: '100vw', priorite: true })"
+  },
+  "grok/mer-agitee": {
+    "nom": "grok/mer-agitee",
+    "source": "recu/grok/mer-agitee.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "53cbdbe82f4ec786",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "59% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/mer-agitee-640.webp",
+      "grok/mer-agitee-1280.webp",
+      "grok/mer-agitee-1920.webp",
+      "grok/mer-agitee-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/mer-agitee-640.webp": 23892,
+      "grok/mer-agitee-1280.webp": 76560,
+      "grok/mer-agitee-1920.webp": 128404,
+      "grok/mer-agitee-mobile-640.webp": 47006
+    },
+    "media": "c.media({ nom: 'grok/mer-agitee', alt: \"\", cadrage: '59% 58%', cadrageMobile: '50% 58%', sizes: '100vw' })"
+  },
+  "grok/ruisseau-paisible": {
+    "nom": "grok/ruisseau-paisible",
+    "source": "recu/grok/ruisseau-paisible.jpg",
+    "role": "section-fond",
+    "alt": "Ruisseau clair dans un sous-bois de chênes, lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "94bff6ec348f04b9",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 46%"
+    },
+    "cadrage": "41% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "centre",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/ruisseau-paisible-640.webp",
+      "grok/ruisseau-paisible-1280.webp",
+      "grok/ruisseau-paisible-1920.webp",
+      "grok/ruisseau-paisible-mobile-640.webp",
+      "grok/ruisseau-paisible-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/ruisseau-paisible-640.webp": 63642,
+      "grok/ruisseau-paisible-1280.webp": 183882,
+      "grok/ruisseau-paisible-1920.webp": 289810,
+      "grok/ruisseau-paisible-mobile-640.webp": 127114,
+      "grok/ruisseau-paisible-mobile-1080.webp": 255104
+    },
+    "media": "c.media({ nom: 'grok/ruisseau-paisible', alt: \"Ruisseau clair dans un sous-bois de chênes, lumière du matin\", cadrage: '41% 43%', cadrageMobile: '49% 46%', sizes: '100vw' })"
+  },
+  "grok/ecole-classe": {
+    "nom": "grok/ecole-classe",
+    "source": "recu/grok/ecole-classe.jpg",
+    "role": "ouverture",
+    "alt": "Salle de classe vide et lumineuse, petites chaises en cercle",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a961e5a816681845",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "54% 64%"
+    },
+    "cadrage": "49% 67%",
+    "sujet": {
+      "x": 0,
+      "y": 33.3,
+      "l": 100,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.93,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/ecole-classe-640.webp",
+      "grok/ecole-classe-1280.webp",
+      "grok/ecole-classe-1920.webp",
+      "grok/ecole-classe-mobile-640.webp",
+      "grok/ecole-classe-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/ecole-classe-640.webp": 23760,
+      "grok/ecole-classe-1280.webp": 70990,
+      "grok/ecole-classe-1920.webp": 122556,
+      "grok/ecole-classe-mobile-640.webp": 47606,
+      "grok/ecole-classe-mobile-1080.webp": 88656
+    },
+    "media": "c.media({ nom: 'grok/ecole-classe', alt: \"Salle de classe vide et lumineuse, petites chaises en cercle\", cadrage: '49% 67%', cadrageMobile: '54% 64%', sizes: '100vw', priorite: true })"
+  },
+  "grok/animal-bocage": {
+    "nom": "grok/animal-bocage",
+    "source": "recu/grok/animal-bocage.jpg",
+    "role": "section-fond",
+    "alt": "Cheval qui paît dans un pré du bocage, au petit matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "5c13e7a2615c29a3",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 44%"
+    },
+    "cadrage": "61% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/animal-bocage-640.webp",
+      "grok/animal-bocage-1280.webp",
+      "grok/animal-bocage-1920.webp",
+      "grok/animal-bocage-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/animal-bocage-640.webp": 32684,
+      "grok/animal-bocage-1280.webp": 71048,
+      "grok/animal-bocage-1920.webp": 116086,
+      "grok/animal-bocage-mobile-640.webp": 40734
+    },
+    "media": "c.media({ nom: 'grok/animal-bocage', alt: \"Cheval qui paît dans un pré du bocage, au petit matin\", cadrage: '61% 44%', cadrageMobile: '50% 44%', sizes: '100vw' })"
+  },
+  "grok/apropos-chemin": {
+    "nom": "grok/apropos-chemin",
+    "source": "recu/grok/apropos-chemin.jpg",
+    "role": "section-fond",
+    "alt": "",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "bea8fc356c294088",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 41%"
+    },
+    "cadrage": "53% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/apropos-chemin-640.webp",
+      "grok/apropos-chemin-1280.webp",
+      "grok/apropos-chemin-1920.webp",
+      "grok/apropos-chemin-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/apropos-chemin-640.webp": 52132,
+      "grok/apropos-chemin-1280.webp": 113286,
+      "grok/apropos-chemin-1920.webp": 178884,
+      "grok/apropos-chemin-mobile-640.webp": 53788
+    },
+    "media": "c.media({ nom: 'grok/apropos-chemin', alt: \"\", cadrage: '53% 41%', cadrageMobile: '50% 41%', sizes: '100vw' })"
+  },
+  "grok/contact-fauteuils": {
+    "nom": "grok/contact-fauteuils",
+    "source": "recu/grok/contact-fauteuils.jpg",
+    "role": "carte-service",
+    "alt": "Deux fauteuils face à face près d'une fenêtre, une théière sur une petite table",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "14d67d741ed97961",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1250,
+      "source": [
+        1000,
+        1250
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/contact-fauteuils-480.webp",
+      "grok/contact-fauteuils-640.webp",
+      "grok/contact-fauteuils-784.webp"
+    ],
+    "poids": {
+      "grok/contact-fauteuils-480.webp": 29420,
+      "grok/contact-fauteuils-640.webp": 40656,
+      "grok/contact-fauteuils-784.webp": 51006
+    },
+    "media": "c.media({ nom: 'grok/contact-fauteuils', alt: \"Deux fauteuils face à face près d'une fenêtre, une théière sur une petite table\", cadrage: '51% 40%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/perdu-404": {
+    "nom": "grok/perdu-404",
+    "source": "recu/grok/perdu-404.jpg",
+    "role": "404",
+    "alt": "Petite barque vide qui dérive sur un lac brumeux",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "d033cb88793af50c",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "63% 47%",
+    "sujet": {
+      "x": 25,
+      "y": 0,
+      "l": 62.5,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.73,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.67,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/perdu-404-800.webp",
+      "grok/perdu-404-1600.webp"
+    ],
+    "poids": {
+      "grok/perdu-404-800.webp": 7742,
+      "grok/perdu-404-1600.webp": 20278
+    },
+    "media": "c.media({ nom: 'grok/perdu-404', alt: \"Petite barque vide qui dérive sur un lac brumeux\", cadrage: '63% 47%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "anne-maelle-portrait": {
+    "nom": "anne-maelle-portrait",
+    "source": "recu/contacte-moi-2.jpg",
+    "role": "portrait",
+    "alt": "Anne-Maëlle Le Roux, souriante, en forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "36eabba8d5192775",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 35%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.4,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 977,
+      "height": 977,
+      "source": [
+        977,
+        1133
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "977 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-portrait-480.webp",
+      "anne-maelle-portrait-640.webp",
+      "anne-maelle-portrait-784.webp"
+    ],
+    "poids": {
+      "anne-maelle-portrait-480.webp": 21682,
+      "anne-maelle-portrait-640.webp": 30802,
+      "anne-maelle-portrait-784.webp": 39084
+    },
+    "media": "c.media({ nom: 'anne-maelle-portrait', alt: \"Anne-Maëlle Le Roux, souriante, en forêt\", cadrage: '52% 35%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '1 / 1' })"
+  },
+  "anne-maelle-bras-ouverts": {
+    "nom": "anne-maelle-bras-ouverts",
+    "source": "recu/parcours-bref.webp",
+    "role": "portrait",
+    "alt": "Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9af3b1ec4e0c88e3",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 3,
+      "width": 998,
+      "height": 1497,
+      "source": [
+        998,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "998 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-bras-ouverts-480.webp",
+      "anne-maelle-bras-ouverts-640.webp",
+      "anne-maelle-bras-ouverts-784.webp"
+    ],
+    "poids": {
+      "anne-maelle-bras-ouverts-480.webp": 90676,
+      "anne-maelle-bras-ouverts-640.webp": 137292,
+      "anne-maelle-bras-ouverts-784.webp": 180392
+    },
+    "media": "c.media({ nom: 'anne-maelle-bras-ouverts', alt: \"Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois\", cadrage: '48% 52%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "tambour": {
+    "nom": "tambour",
+    "source": "recu/propos-moi-2.webp",
+    "role": "carte-service",
+    "alt": "Tambour sur cadre et sa mailloche, posés sur la mousse",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "16dd57fa6983faa8",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 6.3,
+      "y": 25,
+      "l": 68.8,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 998,
+      "height": 998,
+      "source": [
+        998,
+        998
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "998 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "tambour-480.webp",
+      "tambour-640.webp",
+      "tambour-784.webp"
+    ],
+    "poids": {
+      "tambour-480.webp": 27616,
+      "tambour-640.webp": 41748,
+      "tambour-784.webp": 54324
+    },
+    "media": "c.media({ nom: 'tambour', alt: \"Tambour sur cadre et sa mailloche, posés sur la mousse\", cadrage: '49% 48%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '1 / 1' })"
+  },
+  "anne-maelle-tambour": {
+    "nom": "anne-maelle-tambour",
+    "source": "recu/propos-moi-3.webp",
+    "role": "portrait",
+    "alt": "Anne-Maëlle tenant son tambour, en forêt",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b2b603c5178dc93d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 2.9,
+      "y": 0,
+      "l": 97.1,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 40,
+      "top": 0,
+      "width": 798,
+      "height": 998,
+      "source": [
+        998,
+        998
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "998 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-tambour-480.webp",
+      "anne-maelle-tambour-640.webp",
+      "anne-maelle-tambour-784.webp"
+    ],
+    "poids": {
+      "anne-maelle-tambour-480.webp": 36872,
+      "anne-maelle-tambour-640.webp": 54972,
+      "anne-maelle-tambour-784.webp": 73272
+    },
+    "media": "c.media({ nom: 'anne-maelle-tambour', alt: \"Anne-Maëlle tenant son tambour, en forêt\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "anne-maelle-ruisseau": {
+    "nom": "anne-maelle-ruisseau",
+    "source": "recu/propos-moi-4.webp",
+    "role": "galerie",
+    "alt": "Anne-Maëlle pieds nus sur les pierres d'un ruisseau",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "58cb737ddc473a52",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 18,
+      "width": 745,
+      "height": 1118,
+      "source": [
+        745,
+        1203
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "745 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,29 fois (source de 745 px après recadrage)"
+    ],
+    "fichiers": [
+      "anne-maelle-ruisseau-480.webp",
+      "anne-maelle-ruisseau-640.webp",
+      "anne-maelle-ruisseau-960.webp"
+    ],
+    "poids": {
+      "anne-maelle-ruisseau-480.webp": 67246,
+      "anne-maelle-ruisseau-640.webp": 96782,
+      "anne-maelle-ruisseau-960.webp": 150788
+    },
+    "media": "c.media({ nom: 'anne-maelle-ruisseau', alt: \"Anne-Maëlle pieds nus sur les pierres d'un ruisseau\", cadrage: '45% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "anne-maelle-arbre": {
+    "nom": "anne-maelle-arbre",
+    "source": "recu/anne-maelle-arbre.jpg",
+    "role": "portrait",
+    "alt": "Anne-Maëlle assise au pied d'un arbre moussu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0d9833d34e247044",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "40% 72%",
+    "sujet": {
+      "x": 4.5,
+      "y": 24.8,
+      "l": 68.2,
+      "h": 72
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 3,
+      "width": 998,
+      "height": 1497,
+      "source": [
+        998,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "998 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-arbre-480.webp",
+      "anne-maelle-arbre-640.webp",
+      "anne-maelle-arbre-784.webp"
+    ],
+    "poids": {
+      "anne-maelle-arbre-480.webp": 64196,
+      "anne-maelle-arbre-640.webp": 105366,
+      "anne-maelle-arbre-784.webp": 148832
+    },
+    "media": "c.media({ nom: 'anne-maelle-arbre', alt: \"Anne-Maëlle assise au pied d'un arbre moussu\", cadrage: '40% 72%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '2 / 3' })"
+  },
+  "ruisseau-reel": {
+    "nom": "ruisseau-reel",
+    "source": "recu/image.jpg",
+    "role": "galerie",
+    "alt": "Ruisseau dans un sous-bois de fougères",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ef1c7955aef91dc9",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "47% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 95.5,
+      "h": 87.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 998,
+      "height": 1497,
+      "source": [
+        998,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "998 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "ruisseau-reel-480.webp",
+      "ruisseau-reel-640.webp",
+      "ruisseau-reel-960.webp"
+    ],
+    "poids": {
+      "ruisseau-reel-480.webp": 77408,
+      "ruisseau-reel-640.webp": 117980,
+      "ruisseau-reel-960.webp": 206966
+    },
+    "media": "c.media({ nom: 'ruisseau-reel', alt: \"Ruisseau dans un sous-bois de fougères\", cadrage: '47% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "anne-maelle-chat": {
+    "nom": "anne-maelle-chat",
+    "source": "recu/emotions.webp",
+    "role": "carte-service",
+    "alt": "Anne-Maëlle allongée dans l'herbe, la main sur un chat noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f21d7236fd1d1b15",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "48% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1365,
+      "height": 1024,
+      "source": [
+        1366,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-chat-640.webp",
+      "anne-maelle-chat-960.webp",
+      "anne-maelle-chat-1280.webp"
+    ],
+    "poids": {
+      "anne-maelle-chat-640.webp": 46720,
+      "anne-maelle-chat-960.webp": 82964,
+      "anne-maelle-chat-1280.webp": 119482
+    },
+    "media": "c.media({ nom: 'anne-maelle-chat', alt: \"Anne-Maëlle allongée dans l'herbe, la main sur un chat noir et blanc\", cadrage: '48% 44%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "anne-maelle-chien": {
+    "nom": "anne-maelle-chien",
+    "source": "recu/presence.webp",
+    "role": "galerie",
+    "alt": "Anne-Maëlle et son chien, au bord d'un champ",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e46b896051729a20",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "anne-maelle-chien-480.webp",
+      "anne-maelle-chien-640.webp",
+      "anne-maelle-chien-960.webp"
+    ],
+    "poids": {
+      "anne-maelle-chien-480.webp": 49660,
+      "anne-maelle-chien-640.webp": 85712,
+      "anne-maelle-chien-960.webp": 177036
+    },
+    "media": "c.media({ nom: 'anne-maelle-chien', alt: \"Anne-Maëlle et son chien, au bord d'un champ\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "chat-roux": {
+    "nom": "chat-roux",
+    "source": "recu/anne-maelle-regarde-chat.png",
+    "role": "galerie",
+    "alt": "Anne-Maëlle tout près d'un chat roux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cf023d7096c42266",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 35%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 78,
+      "top": 0,
+      "width": 1685,
+      "height": 1123,
+      "source": [
+        2000,
+        1123
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chat-roux-480.webp",
+      "chat-roux-640.webp",
+      "chat-roux-960.webp"
+    ],
+    "poids": {
+      "chat-roux-480.webp": 26328,
+      "chat-roux-640.webp": 40840,
+      "chat-roux-960.webp": 73214
+    },
+    "media": "c.media({ nom: 'chat-roux', alt: \"Anne-Maëlle tout près d'un chat roux\", cadrage: '50% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "estelle-le-roux": {
+    "nom": "estelle-le-roux",
+    "source": "recu/portrait-estelle-roux.jpg",
+    "role": "portrait",
+    "alt": "Estelle Le Roux au bord de la mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3180d2d3dc691ee2",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "54% 49%",
+    "sujet": {
+      "x": 4.2,
+      "y": 0,
+      "l": 91.7,
+      "h": 96.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 50,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        1200,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "estelle-le-roux-480.webp",
+      "estelle-le-roux-640.webp",
+      "estelle-le-roux-784.webp"
+    ],
+    "poids": {
+      "estelle-le-roux-480.webp": 18008,
+      "estelle-le-roux-640.webp": 26262,
+      "estelle-le-roux-784.webp": 34482
+    },
+    "media": "c.media({ nom: 'estelle-le-roux', alt: \"Estelle Le Roux au bord de la mer\", cadrage: '54% 49%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "mains": {
+    "nom": "mains",
+    "source": "recu/specificites-accompagnement.jpg",
+    "role": "carte-service",
+    "alt": "Une main d'enfant posée sur une main d'adulte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6c39529f95f4f81f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 110,
+      "width": 1512,
+      "height": 1890,
+      "source": [
+        1512,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "mains-480.webp",
+      "mains-640.webp",
+      "mains-784.webp"
+    ],
+    "poids": {
+      "mains-480.webp": 33814,
+      "mains-640.webp": 51348,
+      "mains-784.webp": 66106
+    },
+    "media": "c.media({ nom: 'mains', alt: \"Une main d'enfant posée sur une main d'adulte\", cadrage: '51% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  }
+}
