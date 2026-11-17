@@ -38,7 +38,9 @@ export default (c) => {
           <p class="tarif-forfait" data-prix><span data-sophro-forfait data-presentiel="210 €" data-visio="190 €">210 €</span> <small>${c.t('contact.tarifs.forfait')}</small></p>`
           : html`<p class="tarif-prix" data-prix>${t.prix} <small>${t.unite}</small></p>`}
         <p>${t.texte}</p>
-        ${t.lien ? c.lien(t.lien, { ancre: t.ancre || '', classe: 'lien-fleche', texte: c.t('contact.tarifs.voir') }) : html`<a class="lien-fleche" href="?sujet=${t.id === 'sophro' ? 'sophro' : 'autre'}#rendez-vous" data-sans-transition>${c.t('contact.form.titre')}</a>`}
+        ${t.vedette ? html`<ul class="coches tarif-compris">${c.donnees.compris.map((x) => html`<li>${x}</li>`)}</ul>
+          <a class="bouton" href="?sujet=premier#rendez-vous" data-sujet="premier">${c.t('contact.tarifs.premier')}</a>` : ''}
+        ${t.lien ? c.lien(t.lien, { ancre: t.ancre || '', classe: 'lien-fleche', texte: c.t('contact.tarifs.voir') }) : html`<a class="lien-fleche" href="?sujet=${t.id === 'sophro' ? 'sophro' : 'autre'}#rendez-vous" data-sujet="${t.id === 'sophro' ? 'sophro' : 'autre'}">${c.t('contact.form.titre')}</a>`}
       </li>`)}
     </ul>
     <p class="note-discrete" data-anime>* ${c.t('contact.tarifs.note')}</p>
@@ -80,7 +82,7 @@ export default (c) => {
   </form>
 </section>
 
-<section class="zone theme-nuit" id="zone">
+<section class="zone theme-nuit vague-haut vague-bas" id="zone">
   <div class="conteneur zone-grille">
     <div>
       <h2 data-anime="lignes">${c.t('contact.zone.titre')}</h2>

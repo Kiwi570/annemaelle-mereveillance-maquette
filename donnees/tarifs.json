@@ -1,7 +1,43 @@
 [
-  { "id": "mois", "titre": "Accompagnement d'un mois", "prix": "225 €", "unite": "le mois", "texte": "Au moins 4 séances en 1:1, une par semaine. Soutien par message 7 j/7. Séances et immersions en plus sans surcoût, proches compris.", "lien": "accueil", "ancre": "mois", "vedette": true },
-  { "id": "sophro", "titre": "Sophrologie", "prix": "55 €", "unite": "la séance", "texte": "Pour les adultes. Pour découvrir ma façon de travailler avec un outil plus classique.", "sophro": true },
-  { "id": "ponctuelle", "titre": "Séance ponctuelle", "prix": "75 €", "unite": "la séance", "texte": "Écoute ou immersion, adulte ou enfant, d'1 à 2 h. Réservée aux personnes déjà accompagnées, sans suivi par message." },
-  { "id": "animal", "titre": "Immersion animale", "prix": "Tarif libre", "unite": "à distance", "texte": "Tu donnes ce qui te semble juste, pour toi et ton animal. En présentiel : sur demande.", "lien": "immersion-animale" },
-  { "id": "ecole", "titre": "Séquence, à l'école", "prix": "1 420 €", "unite": "+ déplacement", "texte": "Trois séances participatives d'1 h en CE2 ou en CM, matériel inclus. Frais de déplacement selon la distance.", "lien": "ecole" }
+ {
+  "id": "mois",
+  "titre": "Accompagnement d'un mois",
+  "prix": "225 €",
+  "unite": "le mois",
+  "texte": "Tout est compris dans le mois, pour toi et, si besoin, pour tes proches :",
+  "lien": "accueil",
+  "ancre": "mois",
+  "vedette": true
+ },
+ {
+  "id": "sophro",
+  "titre": "Sophrologie",
+  "prix": "55 €",
+  "unite": "la séance",
+  "texte": "Pour les adultes. Pour découvrir ma façon de travailler avec un outil plus classique.",
+  "sophro": true
+ },
+ {
+  "id": "ponctuelle",
+  "titre": "Séance ponctuelle",
+  "prix": "75 €",
+  "unite": "la séance",
+  "texte": "Écoute ou immersion, adulte ou enfant, d'1 à 2 h. Réservée aux personnes déjà accompagnées, sans suivi par message."
+ },
+ {
+  "id": "animal",
+  "titre": "Immersion animale",
+  "prix": "Tarif libre",
+  "unite": "à distance",
+  "texte": "Tu donnes ce qui te semble juste, pour toi et ton animal. En présentiel : sur demande.",
+  "lien": "immersion-animale"
+ },
+ {
+  "id": "ecole",
+  "titre": "Séquence, à l'école",
+  "prix": "1 420 €",
+  "unite": "+ déplacement",
+  "texte": "Trois séances participatives d'1 h en CE2 ou en CM, matériel inclus. Frais de déplacement selon la distance.",
+  "lien": "ecole"
+ }
 ]

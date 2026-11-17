@@ -6,18 +6,21 @@ export const page = { cle: 'a-propos', fichier: 'a-propos', imagePartage: 'anne-
 
 export default (c) => html`
 <section class="ouv-apropos conteneur" id="debut">
+  <p class="surtitre ouv-apropos-sur" data-anime="mots">${c.t('apropos.surtitre')}</p>
+  <h1 class="ouv-apropos-nom nom-prenom" data-anime="gsap"><span class="ligne-masque"><span class="titre-ligne">${c.t('apropos.prenom')}</span></span><span class="visuellement-cache"> ${c.t('apropos.nom')}</span></h1>
+  <p class="ouv-apropos-nom nom-famille" data-anime="gsap" aria-hidden="true"><span class="ligne-masque"><span class="titre-ligne"><em>${c.t('apropos.nom')}</em></span></span></p>
   <div class="ouv-apropos-photo" data-iris-centre>
-    ${c.media({ nom: 'anne-maelle-bras-ouverts', alt: c.s('apropos.photoAlt'), cadrage: '50% 40%', priorite: true, classe: 'ouv-apropos-media', sizes: '(max-width: 760px) 40vw, 18vw' })}
+    ${c.media({ nom: 'anne-maelle-bras-ouverts', alt: c.s('apropos.photoAlt'), cadrage: '50% 40%', priorite: true, classe: 'ouv-apropos-media', sizes: '(max-width: 760px) 50vw, 28vw' })}
     <svg class="ouv-apropos-ondes" data-effet="ondes" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false">${[0, 1, 2].map((i) => html`<ellipse rx="${70 + i * 16}" ry="${26 + i * 7}" style="--i:${i}"/>`)}</svg>
   </div>
-  <p class="surtitre" data-anime="mots">${c.t('apropos.surtitre')}</p>
-  <h1 class="ouv-apropos-nom" data-anime="gsap"><span class="ligne-masque"><span class="titre-ligne">${c.t('apropos.prenom')}</span></span> <span class="ligne-masque"><span class="titre-ligne"><em>${c.t('apropos.nom')}</em></span></span></h1>
-  <blockquote class="citation" data-anime><p>« ${c.t('apropos.citation')} »</p></blockquote>
-  <p class="ouv-apropos-texte masque-ecran-bas" data-anime>${c.t('apropos.texte')}</p>
-  <p class="hero-actions" data-anime>
-    ${c.lien('contact', { ancre: 'rendez-vous', classe: 'bouton', texte: c.t('apropos.action'), attrs: 'data-action-principale data-survol="magnetique"' })}
-    <span class="hero-info" data-info-cle>${c.t('apropos.info')}</span>
-  </p>
+  <blockquote class="citation ouv-apropos-citation" data-anime><p>« ${c.t('apropos.citation')} »</p></blockquote>
+  <div class="ouv-apropos-fin">
+    <p class="ouv-apropos-texte masque-ecran-bas" data-anime>${c.t('apropos.texte')}</p>
+    <p class="hero-actions" data-anime>
+      ${c.lien('contact', { ancre: 'rendez-vous', classe: 'bouton', texte: c.t('apropos.action'), attrs: 'data-action-principale data-survol="magnetique"' })}
+      <span class="hero-info" data-info-cle>${c.t('apropos.info')}</span>
+    </p>
+  </div>
 </section>
 
 <section class="mot theme-ecume" id="mereveillance">
@@ -31,7 +34,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="page-blanche theme-nuit" id="page-blanche">
+<section class="page-blanche theme-nuit vague-haut vague-bas" id="page-blanche">
   ${c.media({ nom: 'grok/apropos-chemin', alt: '', cadrage: '60% 50%', classe: 'page-blanche-fond', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
   <div class="conteneur page-blanche-contenu">
     <p class="annee" data-anime="lettres">${c.t('apropos.page.surtitre')}</p>
@@ -74,7 +77,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="fin theme-nuit" id="rencontre">
+<section class="fin theme-nuit vague-haut" id="rencontre">
   <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
   <div class="conteneur fin-contenu">
     <h2 data-anime="lignes">${c.t('apropos.fin.titre')}</h2>

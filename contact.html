@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/young-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#13293D">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -132,7 +132,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <li class="tarif tarif--vedette" id="tarif-mois">
         <h3>Accompagnement d&#39;un mois</h3>
         <p class="tarif-prix" data-prix>225 € <small>le mois</small></p>
-        <p>Au moins 4 séances en 1:1, une par semaine. Soutien par message 7 j/7. Séances et immersions en plus sans surcoût, proches compris.</p>
+        <p>Tout est compris dans le mois, pour toi et, si besoin, pour tes proches :</p>
+        <ul class="coches tarif-compris"><li>Au moins 4 séances en 1:1, une par semaine</li><li>Immersions pour toi et, si besoin, pour tes proches</li><li>Écoute multidimensionnelle et sophrologie</li><li>Soutien par message, 7 j/7</li><li>Séances en plus sans surcoût</li></ul>
+          <a class="bouton" href="?sujet=premier#rendez-vous" data-sujet="premier">Commencer par le rendez-vous offert</a>
         <a href="/#mois" class="lien-fleche" data-libelle="Accueil">En savoir plus</a>
       </li><li class="tarif" id="tarif-sophro">
         <h3>Sophrologie</h3>
@@ -143,12 +145,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p class="tarif-prix" data-prix><span data-sophro-seance data-presentiel="55 €" data-visio="50 €">55 €</span> <small>La séance</small></p>
           <p class="tarif-forfait" data-prix><span data-sophro-forfait data-presentiel="210 €" data-visio="190 €">210 €</span> <small>Forfait de 4 séances</small></p>
         <p>Pour les adultes. Pour découvrir ma façon de travailler avec un outil plus classique.</p>
-        <a class="lien-fleche" href="?sujet=sophro#rendez-vous" data-sans-transition>Demander un rendez-vous</a>
+        <a class="lien-fleche" href="?sujet=sophro#rendez-vous" data-sujet="sophro">Demander un rendez-vous</a>
       </li><li class="tarif" id="tarif-ponctuelle">
         <h3>Séance ponctuelle</h3>
         <p class="tarif-prix" data-prix>75 € <small>la séance</small></p>
         <p>Écoute ou immersion, adulte ou enfant, d&#39;1 à 2 h. Réservée aux personnes déjà accompagnées, sans suivi par message.</p>
-        <a class="lien-fleche" href="?sujet=autre#rendez-vous" data-sans-transition>Demander un rendez-vous</a>
+        <a class="lien-fleche" href="?sujet=autre#rendez-vous" data-sujet="autre">Demander un rendez-vous</a>
       </li><li class="tarif" id="tarif-animal">
         <h3>Immersion animale</h3>
         <p class="tarif-prix" data-prix>Tarif libre <small>à distance</small></p>
@@ -202,7 +204,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p data-message-envoi role="status" tabindex="-1" hidden></p>
   </form>
 </section>
-<section class="zone theme-nuit" id="zone">
+<section class="zone theme-nuit vague-haut vague-bas" id="zone">
   <div class="conteneur zone-grille">
     <div>
       <h2 data-anime="lignes">Où je me déplace</h2>

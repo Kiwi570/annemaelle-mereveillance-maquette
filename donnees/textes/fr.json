@@ -376,7 +376,8 @@
       "seance": "La séance",
       "forfait": "Forfait de 4 séances",
       "voir": "En savoir plus",
-      "note": "Les séances peuvent avoir lieu en présentiel : déplacement inclus à moins de 15 km d'Andouillé, frais de déplacement au-delà."
+      "note": "Les séances peuvent avoir lieu en présentiel : déplacement inclus à moins de 15 km d'Andouillé, frais de déplacement au-delà.",
+      "premier": "Commencer par le rendez-vous offert"
     },
     "form": {
       "titre": "Demander un rendez-vous",

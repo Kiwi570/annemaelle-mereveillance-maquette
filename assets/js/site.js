@@ -5,7 +5,7 @@
    bulles   : les témoignages remontent à des vitesses différentes ;
    etapes   : les étapes numérotées arrivent l'une après l'autre ;
    bandeau  : la salle de classe s'élargit au défilement. */
-import { demarrer, boucle, versObjet } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, aller } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -73,10 +73,32 @@ function ondesHero() {
   taille();
   new ResizeObserver(taille).observe(cv);
   let temps = 0;
+  const gouttes = [];
+  const hero = cv.closest('.hero');
+  hero.addEventListener('pointerdown', (e) => {
+    if (e.target.closest('a, button, .hero-portrait')) return;
+    const a = cv.getBoundingClientRect();
+    gouttes.push({ x: e.clientX - a.left, y: e.clientY - a.top, t0: temps });
+    if (gouttes.length > 5) gouttes.shift();
+  });
   boucle(cv, (dt) => {
     temps += dt;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, w, h);
+    gouttes.forEach((g) => {
+      const age = temps - g.t0;
+      for (let k = 0; k < 4; k++) {
+        const r = age * 160 - k * 22;
+        if (r <= 0) continue;
+        const a = Math.max(0, .6 - age * .32) * (1 - k * .18);
+        if (a <= 0) continue;
+        ctx.strokeStyle = `rgba(232, 242, 244, ${a.toFixed(3)})`;
+        ctx.lineWidth = 1.6;
+        ctx.beginPath();
+        ctx.ellipse(g.x, g.y, r * 1.1, r * .32, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    });
     const periode = 2.6, n = 5, portee = Math.max(w, h) * .9;
     for (let k = 0; k < n; k++) {
       const age = ((temps + k * periode) % (periode * n));
@@ -105,7 +127,7 @@ function ondesSvg() {
 
 /* Galets : chacun tombe à sa place, puis l'onde s'ouvre autour de son point. */
 function galets() {
-  $$('.galet').forEach((el, i) => {
+  $$('.galet, .calme-carte').forEach((el, i) => {
     const tw = gsap.fromTo(el, { y: -70, opacity: 0, rotate: i % 2 ? 3 : -3 }, {
       y: 0, opacity: 1, rotate: 0, duration: .9, ease: 'back.out(1.7)', delay: (i % 2) * .08,
       scrollTrigger: { trigger: el, start: 'top 90%', once: true },
@@ -162,6 +184,48 @@ function bandeau() {
   });
 }
 
+/* Espace paisible : les deux mots s'écartent et s'effacent avant d'atteindre les bords. */
+function espaceMots() {
+  const mots = $$('.espace-mots span');
+  if (!mots.length) return;
+  gsap.fromTo(mots, { opacity: 1 }, {
+    opacity: 0, ease: 'power1.in',
+    scrollTrigger: { trigger: '.espace', start: 'top top', end: '45% top', scrub: .4 },
+  });
+}
+
+/* FAQ : la réponse s'ouvre et se referme en douceur. */
+function faq() {
+  $$('.faq-item').forEach((d) => {
+    const resume = d.querySelector('summary');
+    const corps = d.querySelector('p');
+    resume.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (d.dataset.anime === '1') return;
+      d.dataset.anime = '1';
+      if (!d.open) {
+        d.open = true;
+        gsap.fromTo(corps, { height: 0, opacity: 0 }, { height: 'auto', opacity: 1, duration: .45, ease: 'power2.out', onComplete: () => { gsap.set(corps, { clearProps: 'height,opacity' }); delete d.dataset.anime; } });
+      } else {
+        gsap.to(corps, { height: 0, opacity: 0, duration: .35, ease: 'power2.in', onComplete: () => { d.open = false; gsap.set(corps, { clearProps: 'height,opacity' }); delete d.dataset.anime; } });
+      }
+    });
+  });
+}
+
+/* Contact : les liens des tarifs choisissent le sujet et descendent au formulaire, sans recharger. */
+function sujets() {
+  const form = document.querySelector('#rendez-vous form');
+  if (!form) return;
+  $$('a[data-sujet]').forEach((a) => a.addEventListener('click', (e) => {
+    const radio = form.querySelector(`input[name="sujet"][value="${a.dataset.sujet}"]`);
+    if (!radio) return;
+    e.preventDefault(); e.stopPropagation();
+    radio.checked = true;
+    aller(document.getElementById('rendez-vous'));
+  }, true));
+}
+
 /* Sophrologie : prix en présentiel ou en visio. */
 function bascule() {
   $$('[data-bascule]').forEach((g) => {
@@ -201,6 +265,9 @@ demarrer({
     etapes();
     bandeau();
     bascule();
+    espaceMots();
+    faq();
+    sujets();
   },
   /* Intro (moins de 3 s) : une goutte tombe sur l'eau sombre, les ondes traversent l'écran puis se calment,
      le logo glisse jusqu'à l'objet d'ouverture de la page et le panneau s'ouvre en cercle depuis lui. */

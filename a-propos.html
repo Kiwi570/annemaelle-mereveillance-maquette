@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/young-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#13293D">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -107,22 +107,25 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv-apropos conteneur" id="debut">
+  <p class="surtitre ouv-apropos-sur" data-anime="mots">Qui suis-je</p>
+  <h1 class="ouv-apropos-nom nom-prenom" data-anime="gsap"><span class="ligne-masque"><span class="titre-ligne">Anne-Maëlle</span></span><span class="visuellement-cache"> Le Roux</span></h1>
+  <p class="ouv-apropos-nom nom-famille" data-anime="gsap" aria-hidden="true"><span class="ligne-masque"><span class="titre-ligne"><em>Le Roux</em></span></span></p>
   <div class="ouv-apropos-photo" data-iris-centre>
     <figure class="media ouv-apropos-media" style="--cadrage:50% 40%">
   <picture>
-    <img src="/assets/images/anne-maelle-bras-ouverts-784.webp" srcset="/assets/images/anne-maelle-bras-ouverts-480.webp 480w, /assets/images/anne-maelle-bras-ouverts-640.webp 640w, /assets/images/anne-maelle-bras-ouverts-784.webp 784w" sizes="(max-width: 760px) 40vw, 18vw" alt="Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois" width="784" height="1176" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/anne-maelle-bras-ouverts-784.webp" srcset="/assets/images/anne-maelle-bras-ouverts-480.webp 480w, /assets/images/anne-maelle-bras-ouverts-640.webp 640w, /assets/images/anne-maelle-bras-ouverts-784.webp 784w" sizes="(max-width: 760px) 50vw, 28vw" alt="Anne-Maëlle, bras ouverts vers la lumière, dans un sous-bois" width="784" height="1176" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
     <svg class="ouv-apropos-ondes" data-effet="ondes" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><ellipse rx="70" ry="26" style="--i:0"/><ellipse rx="86" ry="33" style="--i:1"/><ellipse rx="102" ry="40" style="--i:2"/></svg>
   </div>
-  <p class="surtitre" data-anime="mots">Qui suis-je</p>
-  <h1 class="ouv-apropos-nom" data-anime="gsap"><span class="ligne-masque"><span class="titre-ligne">Anne-Maëlle</span></span> <span class="ligne-masque"><span class="titre-ligne"><em>Le Roux</em></span></span></h1>
-  <blockquote class="citation" data-anime><p>« Être vraie et faire de mon mieux, c&#39;est aussi accepter mon humanité. »</p></blockquote>
-  <p class="ouv-apropos-texte masque-ecran-bas" data-anime>Femme authentique et intuitive, maman calme et à l&#39;écoute de jumelles, amie optimiste. J&#39;accompagne depuis 2015.</p>
-  <p class="hero-actions" data-anime>
-    <a href="/contact#rendez-vous" class="bouton" data-libelle="Contact &amp; tarifs" data-action-principale data-survol="magnetique">Me rencontrer</a>
-    <span class="hero-info" data-info-cle>Premier rendez-vous offert</span>
-  </p>
+  <blockquote class="citation ouv-apropos-citation" data-anime><p>« Être vraie et faire de mon mieux, c&#39;est aussi accepter mon humanité. »</p></blockquote>
+  <div class="ouv-apropos-fin">
+    <p class="ouv-apropos-texte masque-ecran-bas" data-anime>Femme authentique et intuitive, maman calme et à l&#39;écoute de jumelles, amie optimiste. J&#39;accompagne depuis 2015.</p>
+    <p class="hero-actions" data-anime>
+      <a href="/contact#rendez-vous" class="bouton" data-libelle="Contact &amp; tarifs" data-action-principale data-survol="magnetique">Me rencontrer</a>
+      <span class="hero-info" data-info-cle>Premier rendez-vous offert</span>
+    </p>
+  </div>
 </section>
 <section class="mot theme-ecume" id="mereveillance">
   <div class="conteneur mot-grille">
@@ -138,7 +141,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   </div>
 </section>
-<section class="page-blanche theme-nuit" id="page-blanche">
+<section class="page-blanche theme-nuit vague-haut vague-bas" id="page-blanche">
   <figure class="media page-blanche-fond" data-grok data-fx="parallaxe" data-fx-force="10" style="--cadrage:60% 50%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/apropos-chemin-mobile-640.webp 640w" sizes="100vw">
     <img src="/assets/images/grok/apropos-chemin-1280.webp" srcset="/assets/images/grok/apropos-chemin-640.webp 640w, /assets/images/grok/apropos-chemin-1280.webp 1280w, /assets/images/grok/apropos-chemin-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="853" loading="lazy" decoding="async">
@@ -193,7 +196,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   </div>
 </section>
-<section class="fin theme-nuit" id="rencontre">
+<section class="fin theme-nuit vague-haut" id="rencontre">
   <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
   <div class="conteneur fin-contenu">
     <h2 data-anime="lignes">Et si on se rencontrait ?</h2>

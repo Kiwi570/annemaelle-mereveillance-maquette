@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/young-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#13293D">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -170,20 +170,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <li class="galet" data-effet="galets" style="--i:1"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de nouveaux outils pour te connaître encore davantage</span></li><li class="galet" data-effet="galets" style="--i:2"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de suivre une méthode pour parler correctement à tes proches</span></li><li class="galet" data-effet="galets" style="--i:3"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de faire un énième stage de développement personnel</span></li><li class="galet" data-effet="galets" style="--i:4"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">de te forcer à faire un rituel tous les matins ou à chaque pleine lune</span></li>
     </ol>
   </div>
-  <div class="besoin-suite">
-    <figure class="media besoin-mains" data-anime="rideau" style="--cadrage:50% 50%">
+  <figure class="media besoin-mains" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/mains-784.webp" srcset="/assets/images/mains-480.webp 480w, /assets/images/mains-640.webp 640w, /assets/images/mains-784.webp 784w" sizes="(max-width: 760px) 70vw, 24vw" alt="Une main d&#39;enfant posée sur une main d&#39;adulte" width="784" height="980" loading="lazy" decoding="async">
+    <img src="/assets/images/mains-784.webp" srcset="/assets/images/mains-480.webp 480w, /assets/images/mains-640.webp 640w, /assets/images/mains-784.webp 784w" sizes="(max-width: 760px) 80vw, 30vw" alt="Une main d&#39;enfant posée sur une main d&#39;adulte" width="784" height="980" loading="lazy" decoding="async">
   </picture>
 </figure>
-    <div>
-      <h3 class="besoin-titre2" data-anime="lignes">Que dirais-tu d&#39;un quotidien fluide et serein ?</h3>
-      <p data-anime>Un quotidien dans lequel tu te sens léger·e et où tu as confiance en tes ressources.</p>
-      <ul class="coches" data-anime="cascade">
-        <li>Tu gères le quotidien sans qu&#39;il prenne toute la place, et tu prends du temps pour l&#39;essentiel : toi et tes proches.</li><li>Tes relations sont saines et positives ; tu sais prendre du recul quand le besoin s&#39;en fait sentir.</li><li>Tu te sens solide, sécure et souple, prêt·e à accueillir tes proches tels qu&#39;ils sont, en respectant tes besoins.</li>
-      </ul>
-    </div>
-  </div>
+</section>
+<section class="calme conteneur" id="que-dirais-tu">
+  <h2 class="calme-titre" data-anime="lignes">Que dirais-tu d&#39;un quotidien fluide et serein ?</h2>
+  <p class="calme-intro" data-anime>Un quotidien dans lequel tu te sens léger·e et où tu as confiance en tes ressources.</p>
+  <ol class="calme-liste">
+    <li class="calme-carte" data-effet="galets" style="--i:1"><span class="calme-onde" aria-hidden="true"></span><p>Tu gères le quotidien sans qu&#39;il prenne toute la place, et tu prends du temps pour l&#39;essentiel : toi et tes proches.</p></li><li class="calme-carte" data-effet="galets" style="--i:2"><span class="calme-onde" aria-hidden="true"></span><p>Tes relations sont saines et positives ; tu sais prendre du recul quand le besoin s&#39;en fait sentir.</p></li><li class="calme-carte" data-effet="galets" style="--i:3"><span class="calme-onde" aria-hidden="true"></span><p>Tu te sens solide, sécure et souple, prêt·e à accueillir tes proches tels qu&#39;ils sont, en respectant tes besoins.</p></li>
+  </ol>
 </section>
 <section class="mois theme-ecume" id="mois">
   <div class="conteneur">
@@ -220,7 +218,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="mois-bonus" data-anime>Ensuite, en bonus : des séances ponctuelles d&#39;1 à 2 h (immersion ou écoute), 75 € la séance.</p>
   </div>
 </section>
-<section class="temoignages theme-nuit" id="temoignages">
+<section class="temoignages theme-nuit vague-haut vague-bas" id="temoignages">
   <svg class="temoignages-ondes" data-effet="ondes" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><circle r="18" style="--i:0"/><circle r="33" style="--i:1"/><circle r="48" style="--i:2"/><circle r="63" style="--i:3"/><circle r="78" style="--i:4"/><circle r="93" style="--i:5"/><circle r="108" style="--i:6"/></svg>
   <div class="conteneur">
     <p class="surtitre" data-anime="mots">Elles et ils l&#39;ont vécu</p>
@@ -234,7 +232,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="pourtoi conteneur" id="pour-toi">
   <h2 data-anime="lignes">Mon accompagnement est-il fait pour toi ?</h2>
   <p class="pourtoi-intro" data-anime>On vient me voir pour…</p>
-  <ul class="pastilles" data-anime="cascade">
+  <ul class="pastilles pastilles--motifs" data-anime="cascade">
     <li>des relations difficiles</li><li>un bébé ou un enfant</li><li>des difficultés à concevoir</li><li>des douleurs physiques persistantes</li><li>de l&#39;anxiété</li>
   </ul>
   <div class="pourtoi-colonnes">
@@ -312,7 +310,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <details class="faq-item"><summary>Est-ce que tu peux m&#39;aider, avec ma situation à moi ?</summary><p>Nous avons beau être tous différents, nous passons malgré tout par des processus similaires. Le premier rendez-vous, gratuit et sans engagement, sert justement à en parler.</p></details><details class="faq-item"><summary>Pourquoi un accompagnement d&#39;un mois pour commencer ?</summary><p>Ma façon de travailler agit en profondeur. Le mois comprend au moins 4 séances, une par semaine, et mon soutien par message entre les séances.</p></details><details class="faq-item"><summary>Le prix change si on fait une séance de plus ?</summary><p>Non, c&#39;est un forfait qui te donne accès à tout ce que je suis et à tous mes outils, sans variation de prix. Tes proches peuvent aussi en profiter.</p></details><details class="faq-item"><summary>Comment tu fais ?</summary><p>Il est difficile de mettre des mots sur ma clairempathie. Concrètement, j&#39;utilise l&#39;immersion (une connexion énergétique et la mise en mots des émotions) et l&#39;écoute multidimensionnelle, en séance individuelle.</p></details><details class="faq-item"><summary>Est-ce que je peux essayer avant de m&#39;engager pour un mois ?</summary><p>Oui. Si tu veux tester ma façon d&#39;être et de travailler à partir d&#39;un outil plus classique, tu peux réserver une séance de sophrologie (55 € en présentiel, 50 € en visio) ou un forfait de 4 séances.</p></details><details class="faq-item"><summary>Combien ça coûte ?</summary><p>Le mois coûte 225 €. Au minimum, tu as accès à 4 séances, une par semaine, dont des immersions pour toi et, si besoin, pour tes proches, et à mon soutien par message tout le mois.</p></details>
   </div>
 </section>
-<section class="fin theme-nuit" id="premier-pas">
+<section class="fin theme-nuit vague-haut" id="premier-pas">
   <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
   <div class="conteneur fin-contenu">
     <h2 data-anime="lignes">Le premier pas est offert</h2>

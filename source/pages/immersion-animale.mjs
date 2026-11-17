@@ -21,7 +21,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="especes theme-nuit" id="especes">
+<section class="especes theme-nuit vague-haut vague-bas" id="especes">
   ${c.media({ nom: 'grok/animal-bocage', alt: '', cadrage: '65% 55%', classe: 'especes-fond', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
   <div class="conteneur especes-contenu">
     <h2 data-anime="lignes">${c.t('animal.especes.titre')}</h2>
@@ -39,7 +39,7 @@ export default (c) => html`
       <li><span class="num" aria-hidden="true">3</span><h3>${c.t('animal.preparer.p3t')}</h3><p>${c.t('animal.preparer.p3')}</p></li>
     </ol>
   </div>
-  ${c.media({ nom: 'anne-maelle-chien', alt: c.s('animal.preparer.chienAlt'), cadrage: '55% 45%', classe: 'preparer-photo', sizes: '(max-width: 760px) 90vw, 30vw', attrs: 'data-anime="rideau"' })}
+  ${c.media({ nom: 'anne-maelle-chien', alt: c.s('animal.preparer.chienAlt'), cadrage: '50% 45%', classe: 'preparer-photo', sizes: '(max-width: 760px) 90vw, 30vw', attrs: 'data-anime="rideau"' })}
 </section>
 
 <section class="deroule theme-ecume" id="deroule">
@@ -54,14 +54,14 @@ export default (c) => html`
 <section class="temoins conteneur" id="temoignages">
   <h2 data-anime="lignes">${c.t('animal.temoignages.titre')}</h2>
   <div class="temoins-grille">
-    ${c.media({ nom: 'chat-roux', alt: c.s('animal.temoignages.chatAlt'), cadrage: '58% 50%', classe: 'temoins-photo', sizes: '(max-width: 760px) 90vw, 30vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
+    ${c.media({ nom: 'chat-roux', alt: c.s('animal.temoignages.chatAlt'), cadrage: '50% 40%', classe: 'temoins-photo', sizes: '(max-width: 760px) 90vw, 46vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
     <ul class="temoins-liste" data-anime="cascade">
       ${c.donnees.temoignagesAnimaux.map((t) => html`<li><blockquote><p>« ${t.texte} »</p></blockquote><p class="bulle-qui"><strong>${t.qui}</strong> · ${t.animal}</p></li>`)}
     </ul>
   </div>
 </section>
 
-<section class="fin theme-nuit" id="tarif">
+<section class="fin theme-nuit vague-haut" id="tarif">
   <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
   <div class="conteneur fin-contenu">
     <p class="prix prix--clair" data-prix data-anime>${c.t('animal.tarif.titre')}</p>

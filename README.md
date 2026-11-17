@@ -1,4 +1,4 @@
-# Anne-Maëlle & Mèreveillance · maquette v1
+# Anne-Maëlle & Mèreveillance · maquette v2
 
 Maquette de refonte du site annemaellemereveillance.fr (Anne-Maëlle Le Roux, accompagnement émotionnel, Andouillé, Mayenne).
 Adresse de présentation : https://annemaelle-mereveillance-maquette.vercel.app

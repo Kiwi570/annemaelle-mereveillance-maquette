@@ -60,16 +60,15 @@ export default (c) => html`
       ${[1, 2, 3, 4].map((i) => html`<li class="galet" data-effet="galets" style="--i:${i}"><span class="galet-onde" aria-hidden="true"></span><span class="galet-texte">${c.t('accueil.besoin.b' + i)}</span></li>`)}
     </ol>
   </div>
-  <div class="besoin-suite">
-    ${c.media({ nom: 'mains', alt: c.s('accueil.besoin.mainsAlt'), cadrage: '50% 50%', classe: 'besoin-mains', sizes: '(max-width: 760px) 70vw, 24vw', attrs: 'data-anime="rideau"' })}
-    <div>
-      <h3 class="besoin-titre2" data-anime="lignes">${c.t('accueil.besoin.titre2')}</h3>
-      <p data-anime>${c.t('accueil.besoin.intro2')}</p>
-      <ul class="coches" data-anime="cascade">
-        ${[1, 2, 3].map((i) => html`<li>${c.t('accueil.besoin.q' + i)}</li>`)}
-      </ul>
-    </div>
-  </div>
+  ${c.media({ nom: 'mains', alt: c.s('accueil.besoin.mainsAlt'), cadrage: '50% 50%', classe: 'besoin-mains', sizes: '(max-width: 760px) 80vw, 30vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
+</section>
+
+<section class="calme conteneur" id="que-dirais-tu">
+  <h2 class="calme-titre" data-anime="lignes">${c.t('accueil.besoin.titre2')}</h2>
+  <p class="calme-intro" data-anime>${c.t('accueil.besoin.intro2')}</p>
+  <ol class="calme-liste">
+    ${[1, 2, 3].map((i) => html`<li class="calme-carte" data-effet="galets" style="--i:${i}"><span class="calme-onde" aria-hidden="true"></span><p>${c.t('accueil.besoin.q' + i)}</p></li>`)}
+  </ol>
 </section>
 
 <section class="mois theme-ecume" id="mois">
@@ -104,7 +103,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="temoignages theme-nuit" id="temoignages">
+<section class="temoignages theme-nuit vague-haut vague-bas" id="temoignages">
   ${ondesSvg('temoignages-ondes', 7)}
   <div class="conteneur">
     <p class="surtitre" data-anime="mots">${c.t('accueil.temoignages.surtitre')}</p>
@@ -119,7 +118,7 @@ export default (c) => html`
 <section class="pourtoi conteneur" id="pour-toi">
   <h2 data-anime="lignes">${c.t('accueil.pourtoi.titre')}</h2>
   <p class="pourtoi-intro" data-anime>${c.t('accueil.pourtoi.intro')}</p>
-  <ul class="pastilles" data-anime="cascade">
+  <ul class="pastilles pastilles--motifs" data-anime="cascade">
     ${[1, 2, 3, 4, 5].map((i) => html`<li>${c.t('accueil.pourtoi.t' + i)}</li>`)}
   </ul>
   <div class="pourtoi-colonnes">
@@ -181,7 +180,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="fin theme-nuit" id="premier-pas">
+<section class="fin theme-nuit vague-haut" id="premier-pas">
   <canvas class="fin-ondes" data-effet="ondes" aria-hidden="true" data-visuel></canvas>
   <div class="conteneur fin-contenu">
     <h2 data-anime="lignes">${c.t('accueil.fin.titre')}</h2>

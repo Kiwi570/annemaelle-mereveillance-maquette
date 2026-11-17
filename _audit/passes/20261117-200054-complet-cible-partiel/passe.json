@@ -1,0 +1,18 @@
+{
+ "id": "20261117-200054-complet-cible-partiel",
+ "date": "2026-11-17T20:06:20.236Z",
+ "niveau": "complet",
+ "pages": "/,/a-propos,/immersion-animale",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran",
+  "films"
+ ],
+ "version": "2",
+ "echecs": 3,
+ "aRegarder": 11,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

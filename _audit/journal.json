@@ -87,6 +87,55 @@
    "effetsRetires": [],
    "grilleDispenses": {},
    "notes": "favoris.json absent du dépôt bibliotheque-maquettes : reconstruit en local depuis la liste de la skill (Fit-Tri, Exco, Ice Attitude absentes de la bibliothèque). Premier audit standard tué en arrière-plan pendant la question de l'aperçu : relancé. Mailto sur le domaine du client signalé comme lien vers le site actuel : siteActuel réglé sur www."
+  },
+  {
+   "version": 2,
+   "skill": "v11.1",
+   "perimetre": [
+    "accueil",
+    "immersion-animale",
+    "ecole",
+    "a-propos",
+    "contact",
+    "404"
+   ],
+   "etapes": [
+    {
+     "etape": "audit complet de la v1 (en arrière-plan) et analyse page par page",
+     "budget": 25,
+     "debut": "2026-11-17T20:08:56+01:00",
+     "fin": "2026-11-17T20:12:30+01:00"
+    },
+    {
+     "etape": "améliorations v2",
+     "budget": 40,
+     "debut": "2026-11-17T20:12:30+01:00",
+     "fin": "2026-11-17T20:36:00+01:00"
+    },
+    {
+     "etape": "audit complet de la v2 et livraison",
+     "budget": 45,
+     "debut": "2026-11-17T20:36:00+01:00",
+     "fin": "2026-11-17T21:12:29+01:00"
+    }
+   ],
+   "attentes": [],
+   "allersRetours": 0,
+   "modules": [],
+   "audit": {
+    "niveau": "complet",
+    "echecsPremierPassage": 5,
+    "relances": 4,
+    "corrections": [
+     "grilles de la mer et de l'immersion animale réservées à l'ordinateur",
+     "titre h1 de l'à-propos (display: contents)",
+     "espacement prénom / nom",
+     "à-propos sur tablette recomposé"
+    ]
+   },
+   "effetsRetires": [],
+   "grilleDispenses": {},
+   "notes": "Demande : audit complet et analyse approfondie (expérience, visuels, animations). Audit complet v1 : 0 échec, 22 à regarder."
   }
  ]
 }
